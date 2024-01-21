@@ -1,0 +1,388 @@
+
+---
+title: "Tackling the world's lowest fertility rate (Effect of childcare subsidies on birth-rate in South Korea)"
+author: Shawn Lee (sl5191), Sharif Kazemi (ms6578), Manisha Swain (ms6549)
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  pdf_document:
+    keep_tex: false
+    fig_caption: true
+    latex_engine: pdflatex
+header-includes:
+  -  \usepackage{hyperref}
+  - \usepackage{placeins}
+biblio-style: apsr
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+# spacing: double
+endnote: no
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE,
+                      message=FALSE, warning=FALSE, echo=FALSE,
+                      fig.path='figs/',
+                      cache.path = '_cache/',
+                      fig.process = function(x) {
+                      x2 = sub('-\\d+([.][a-z]+)$', '\\1', x)
+                      if (file.rename(x, x2)) x2 else x
+                      })
+```
+
+```{r libraries}
+library(tidyverse)
+library(stargazer)
+library(kableExtra)
+library(readxl)
+library(gapminder)
+library(dplyr)
+library(purrr)
+library(ggplot2)
+library(tidyr)
+library(reshape2)
+library(panelr)
+library(lmtest)
+library(sandwich)
+library(knitr)
+library(modelsummary)
+library(fixest)
+library(magrittr)
+library(stringr)
+library(feasts)
+library(weights)
+library(tibble)
+library(plm)
+library(broom)
+```
+```{r load}
+load("Final Dataset.RData")
+```
+
+# 1. Introduction
+
+- How do family subsidies affect the availability of childcare facilities in different localities in South Korea?
+Ultimately, how has this policy impacted birth rate in the country through the provision of greater childcare supply?
+
+- Why is this important?
+  + This research can provide evidence-based policy recommendations for improving the accessibility and quality of childcare services in South Korea, which is facing a low fertility rate, a high demand for childcare, and challenges for working parents.
+  + This can also contribute to the literature on the effects of government subsidies on childcare support, which is limited and inconclusive, and will become increasingly important as more countries experience declining birth-rates which might be stimulated by childcare support.
+
+# 2. Background
+
+The South Korean government has established various policies to counter the low fertility rate since the mid-2000s, but it still has the lowest fertility rate among OECD member countries. This project aims to focus on the childcare subsidies announced in 2018 and its impact on birth rate across districts in the country. In essence, the Korean government took a supply-first approach to addressing low fertility - but this strategy has been called into question since Covid as birth rates have continued to plummet. 
+
+The Third Mid- to Long-Term Basic Childcare Plan (2018-2022) was announced by the South Korean government in December 2017. The plan was developed with the vision of “a society that collaborates for the happy growth of infants”. It has 4 primary goals -  Enhancement of the Public Nature of Childcare, Reform of the Childcare System, Improvement of Childcare Service Quality and Expansion of Parental Support. 
+
+As a part of the 5 year plan, the government aims to get 40 percent of eligible children attending facilities, as well as promoting more support policies to enhance childcare services, and the employment of more teachers. Thus, the policy shock we are considering goes into effect in 2018 for the purpose of our analysis.
+
+Experts have emphasized the importance of ensuring the “publicity of childcare” and expanding national and public plans for it. This was highlighted in the Third Basic Plan survey of experts on mid- to long-term childcare development plans, organized by the Childcare Policy Institute. The public, on the other hand, emphasized “securing trust and transparency of daycare centers.”
+
+# 3. Data description
+
+Our main data source for government expenditure is from the Ministry of South Korea’s Local Finance
+Integrated Open System. We were able to source budget allocated to “Childcare & Family &
+Women” under the “Social Welfare” category for the years 2016-2022. Found here: https://www.lofin365.
+go.kr/eng
+
+We also used the repository from the Korea Childcare Promotion Institute (KCPI) under the Ministry of
+Health and Welfare to gather data on the number of public and private childcare center facilities and their enrollment capacities in the country over the same time period. Found here: https://www.kcpi.or.kr/kcpi/cyberpr/childcarestat1.do
+
+Finally, we used the official record of aggregated live births in the country to track the impact of the policy
+change, using national census data from Statistics Korea. Found here: https://kosis.kr/eng/#
+
+We are focusing on district level data across all metrics, looking at time variation across a 7 year horizon
+(2016-2022). The 229 districts are aggregated across 17 provinces in the country.
+
+
+## 3.1 Variables in study
+
+Our treatment/policy shock entails South Korea’s national strategy to strengthen the public nature of
+childcare in 2018. The goal of expanding the uptake of national and public daycare centers to 40% was
+planned to be achieved by easing local governments’ financial burden, raising the unit price of support when
+building these daycare centers, and supporting labor costs for local governments’ self-installed
+facilities.
+
+- The final dependent variable would be the national crude birth rate (births per 1,000 people per year), with an interim dependent variable being the public childcare facility capacity to gauge whether the policy was successful in increasing supply.  
+- The independent variables would be:
+  + Change in family welfare budget,
+  + And change in enrollment in public childcare facilities.
+- The control variables are average household income and number of newly wed couples by province, and weighting by population in some variables 
+
+
+# 4. Descriptive statistics
+
+## 4.1. Main Dependent Variable: Birth-rate
+
+
+We see a declining birth rate across all provinces over the 7 year time horizon. As per feedback from the teaching team, we have excluded Sejong (a province where the administrative functions of the government are and this is home to a higher proportion of young couples) to be able to see the variation between other provinces better.
+
+\FloatBarrier
+
+```{r graph 1, fig.cap="Birth rate trend across provinces", fig.width=7, fig.height=4}
+province_to_remove <- "Sejong"
+
+panel_birth_enrollment_province_minussejong <- panel_birth_enrollment_province %>% 
+  filter(province != province_to_remove)
+
+ggplot(panel_birth_enrollment_province_minussejong, aes(x = as.integer(str_extract(year, "\\d+")), 
+                    y = birthrate, color = province)) +
+  geom_line(alpha = 0.5) +
+geom_smooth(aes(group = 1), method = "lm", se = FALSE, size = 1.5, linetype = "solid", color = "black") +
+  labs(title = "Births per 1,000 people, per province per year", 
+       x = "Year", y = "Birth-rate", color = "Province") +
+  scale_x_continuous(breaks = 2016:2022) +
+  theme(legend.text = element_text(size=8),
+        legend.key.size = unit(0.5, "cm"),
+        panel.background = element_rect(fill = "transparent"))
+```
+
+\FloatBarrier
+
+## 4.2. Exploratory Variable: Budget
+
+In our analysis, we consider Seoul, Gyeonggi and Incheon as the capital region and the other provinces as non-capital region. We see that over time from 2016 to 2022 the budget allocation increases across provinces - primarily after the law went into effect in 2018. We see a slight dip in 2021 due to COVID but the chart shows that the allocation was fairly consistent when accounting for the proportion of child bearing population.
+
+We consider 13% of the total population to be our target "child bearing" age group (females in the age band 25-44) across provinces, with census data yielding a max of 16% and min of 10%.
+
+We also analysed districts and provinces grouped by capital/non-capital region to note that while there is a clear difference in the budget share between capital and non-capital provinces before policy implementation, the year-over-year change appears to be about the same. Further, after 2018 when the policy came into effect we do not see significant change in the trend. The capital region appears to receive higher funding than the national average since a bigger chunk of the target population resides in these provinces.
+
+\FloatBarrier
+
+```{r graph 2, fig.cap="Budget allocation trend across provinces", fig.width=7, fig.height=3}
+
+ggplot(panel_percapita_budget_province, aes(x = year, y = percapita_budget, fill = province)) +
+  geom_bar(stat = "identity") +
+  labs(title = " Budget Trend by Province",
+       x = "Year",
+       y = "Budget per 1000 child bearing population")+
+  theme(panel.background = element_rect(fill = "transparent"))
+
+```
+
+\FloatBarrier
+
+```{r graph 3, fig.cap="Event study across provinces", fig.width=7, fig.height=4}
+
+ggplot(capitalTS, aes(x = year, y = budget, group = grp)) +
+  geom_line(aes(linetype = grp)) +
+  geom_point(aes(shape = grp)) +
+  geom_vline(aes(xintercept = 2018)) +
+  labs(
+    x = "Year",
+    y = "Budget per 1000 child bearing population, Province Level") +
+  scale_linetype_manual(values = c("solid", "dashed", "dashed")) +
+  scale_shape_manual(values = c(20, 15, 0)) +
+  theme_classic() +
+  theme(
+    legend.title = element_blank(),
+    legend.position = c(0.8,0.6),
+    panel.grid.major.x = element_blank(),
+    panel.grid.major.y = element_line(size=.1, color="black"))
+
+```
+
+\FloatBarrier
+
+## 4.3. Exploratory Variable: Enrollment at Childcare Centres 
+
+\FloatBarrier
+
+```{r graph 4, fig.cap="Enrollment rate at public childvare centres", fig.width=7, fig.height=4}
+ggplot(Population_enrollment_rate_provinces_panel, aes(x = as.integer(str_extract(year, "\\d+")), 
+                    y = enroll_per_pop, color = Location)) +
+  geom_line(alpha = 0.5) +
+geom_smooth(aes(group = 1), method = "lm", se = FALSE, size = 1.5, linetype = "solid", color = "black") +
+  labs(title = "Public facility enrollments per capita, per province per year", 
+       x = "Year", y = "Enrollment-rate", color = "Province") +
+  scale_x_continuous(breaks = 2016:2022) +
+  theme(legend.text = element_text(size=8),
+        legend.key.size = unit(0.5, "cm"),
+        panel.background = element_rect(fill = "transparent"))
+
+```
+
+\FloatBarrier
+
+We see that after the policy kicked in 2018, the enrollment rates across provinces increased more sharply than their previous trend, although  we cannot isolate this to a causal instance. Moreover, we notice 2 provinces - Sejong and Seoul - showing higher enrollment numbers than others given the larger share of younger newly-married couples residing in these regions.
+
+Worth noting, Sejong is a special administrative region created in 2016 for the government's administrative functions. Along with this, a lot of investments, cultural functions and businesses were moved to this area. It is home to the youngest population in the country with average age being 38years.
+
+\newpage
+
+# 5. Empirical strategy
+
+\FloatBarrier
+
+Our PRF for two models with year-fixed effects are as follows:
+(caveat to note that the regressions exclude 2022 in analysis since the avg household income data is not available publicly for this control variable)
+
+To estimate the **relationship between government childcare support budget and total capacity of public childcare facilities**, we use the following fixed effects regression equation:
+$$Y_{t} = \beta_0 + \beta_1 X_{t} + \beta_2 Z_{t} + \beta_3 W_{t} + \beta_4 V_{t} + \mu_t + \varepsilon_{t}$$
+where $Y_t$ is the total capacity of public childcare facilities in year $t$, $X_t$ is the change in government childcare support budget per capita at province level, $Z_t$ is the number of newly wed couples per capita at province level, $W_t$ is the average household income per capita at province level, $V_t$ is the gross regional domestic product per capita at province level and $\varepsilon_it$ is the error term. The subscript $t$ denotes the year. The fixed effects $\mu_t$ controls for unobserved heterogeneity across time which is province invariant.
+
+```{r results ="asis"}
+#store models for display using modelsummary()
+newmodels <- list(
+  "Model 1.1" = feols(total_pub_capacity ~ budget 
+                 | year, data = panel_province, weights = panel_province$Population),
+  "Model 1.2" = feols(total_pub_capacity ~ budget + nwedcouples
+                 | year, data = panel_province, weights = panel_province$Population),
+  "Model 1.3" = feols(total_pub_capacity ~ budget + nwedcouples + hhinc 
+                 | year, data = panel_province, weights = panel_province$Population),
+  "Model 1.4" = feols(total_pub_capacity ~ budget + nwedcouples + hhinc + GRDP 
+                 | year, data = panel_province, weights = panel_province$Population)
+)
+
+#set up an object to customize your regression table goodness-of-fit statistics
+gm <- tibble::tribble(
+  ~raw,            ~clean,              ~fmt,
+  "nobs",           "N",                 0,
+  "r.squared",      "R2",                2,
+  "adj.r.squared",  "Adj. R2",           2,
+  "FE: year",       "Year FEs",          0,
+)
+
+#display results with added formatting options    
+modelsummary(newmodels,
+             coef_omit = 'Intercept',
+             coef_rename = c("budget" = "Family Budget per capita (10k KRW)", 
+                             "nwedcouples" = "Newly Married Couples per capita",
+                             "hhinc" = "Average Household Income per capita (10k KRW)",
+                             "GRDP" = "GRDP per capita"
+                             ),
+             gof_map = gm,
+             title = 'Year FE Family Budget on Public Childcare Facilities Capacity',
+             stars = c('*' = .1, '**' = .05, '***' = .01),
+             notes = 'Robust standard errors clustered by province are shown in parentheses.
+                      Observations are weighted by the population in each province.') %>%
+  kable_styling(latex_options=c("scale_down","hold_position"))
+  
+```
+
+\FloatBarrier
+
+We also explored the trends for capacity and enrollment in public childcare facilities. We see both increasing over our period of analysis, however, the enrollment rates don't appear to increase as much as the capacity. **This implies a growing gap between supply in the capacity and the realised demand in enrollment.** We use enrollment as an explanatory variable in our second regression.
+
+```{r graph 5, fig.cap="Enrollment and Capacity trends across provinces", fig.width=7, fig.height=2.8}
+ggplot(df_long_clustered_bar, aes(x = year, y = value, fill = type)) +
+  geom_bar(stat = "identity", position = "dodge", width = 0.7) +
+  labs(title = "Capacity and Enrollment Over Years, Across South Korea",
+       x = "Year",
+       y = "Childcare Facilities Spots") +
+  scale_y_continuous(labels = scales::comma) + 
+      scale_fill_manual(
+    values = c("total_capacity" = "light blue", "total_enrollment" = "blue"), 
+    name = "Legend",  
+    labels = c("Capacity", "Enrollment")) +
+  theme(panel.background = element_rect(fill = "transparent"))
+   
+```
+
+\FloatBarrier
+
+To estimate the relationship between total enrollment in public childcare facilities and South Korea's birth rate, we use the following fixed effects regression equation:
+$$Y_{t} = \beta_0 + \beta_1 X_{t} + \beta_2 Z_{t} + \beta_3 W_{t} + \beta_4 V_{t}+ \kappa_t + \varepsilon_{t}$$
+
+where $Y_t$ is South Korea’s birth rate in and year $t$, $X_t$ is the total enrollment in public childcare facilities per capita at province level, $Z_it$ is the number of newly wed couples per capita at province level, $W_t$ is the average household income per capita at province level, $V_t$ is the gross regional domestic product per capita at province level and $\varepsilon_it$ is the error term. The subscript t denotes the year. The fixed effects $\kappa_t$ controls for unobserved heterogeneity across time which is province invariant.
+
+\FloatBarrier
+
+```{r results ="asis"}
+#store models for display using modelsummary()
+newmodels2 <- list(
+  "Model 2.1" = feols(birthrate ~ total_pub_enrolled
+                 | year, data = panel_province, weights = panel_province$Population),
+  "Model 2.2" = feols(birthrate ~ total_pub_enrolled + nwedcouples
+                 | year, data = panel_province, weights = panel_province$Population),
+  "Model 2.3" = feols(birthrate ~ total_pub_enrolled + nwedcouples + hhinc 
+                 | year, data = panel_province, weights = panel_province$Population),
+  "Model 2.4" = feols(birthrate ~ total_pub_enrolled + nwedcouples + hhinc + GRDP 
+                 | year, data =  panel_province, weights = panel_province$Population)
+)
+
+#display results with added formatting options    
+modelsummary(newmodels2,
+             coef_omit = 'Intercept',
+             coef_rename = c("budget" = "Family Budget per capita", 
+                             "total_pub_enrolled" = "Number of Children Enrolled in Public Childcare Facilities per capita",
+                             "nwedcouples" = "Newly Married Couples per capita",
+                             "hhinc" = "Average Household Income per capita",
+                             "GRDP" = "GRDP per capita"
+                             ),
+             gof_map = gm,
+             title = 'Year FE Public Childcare Facilities Enrollment on Birthrate',
+             stars = c('*' = .1, '**' = .05, '***' = .01),
+             notes = 'Robust standard errors clustered by province are shown in parentheses.
+                      Observations are weighted by the population in each province.') %>%
+  kable_styling(latex_options=c("scale_down","hold_position"))
+```
+
+\newpage
+
+# 6. Findings
+
+- We see that the crude birth rate has been declining across provinces, throughout our analysis period
+- We also note that after the 2018 policy implementation, the budget allocated across provinces increases but the distribution is proportionate to population across provinces 
+- Our regression results show for every 100m KRW increase in budget, the capacity of a public childcare facility increases. **This demonstrates a successful policy in increasing the supply of childcare**
+- Further, we see that an increase in enrollment numbers of the childcare facilities have a negligible, but negative impact on the country's birth rate. This is negligible because a per capita increase of 1 child enrolled is a significant and unrealistic change which still only results in relatively low impacts on birth-rate. **Therefore, the supply-side policy did not succeed in stimulating the birth-rate in the period examined.**
+- We have reason to believe that the sign of the coefficient is being driven by further confounding variables, rather than being a negative causal relationship between enrollment and birth-rate, as two-way fixed effects adjust this coefficient to a positive sign but close-to-zero value. Further discussion on fixed effects is in the limitations section. 
+- We see an increase in both capacity and enrollment numbers for public childcare facilities, however the gap between the two rises after policy is implemented; this points to a supply growing at a faster rate than realised demand.
+- The coefficients are statistically significant across both regression specifications
+
+Thus we see not much within-province variation in budget allocation to analyse as an explanatory variable for our study. While the enrollment across childcare centers differs, it does not point to a causal relationship with the birth rate. There are other factors which could influence child care centre usage by parents and many other causes due to which new parents in the country are choosing to have fewer or no children. 
+
+**We see that this policy did not achieve its stated objectives.** The birth rate has continued to plummet and thus the South Korean government switched to a demand side approach in their Fourth Basic Plan (2023-2027) focusing on cash transfers and tax credits.
+
+
+# 7. Conclusion
+
+In our research, we analysed the budget data from South Korea's "Childcare & Family & Women” allocation under the “Social Welfare” category across the country's 17 provinces and the granular districts within them. Our empirical strategy was split into a two pronged approach - effect of budget increase on capacity of childcare facilities and effect of increased enrollment in these facilities over South Korea's birth rate. 
+
+The fertility rate — the average number of children born to a woman in her reproductive years — is now 0.78, according to figures released by the Korean government in February. It could be years before the country can reach the 2.1 rate that experts say is needed for a country to maintain a stable population without migration.
+
+\newpage
+
+# 8. Limitations
+
+- **Data availability and measurement**
+  + Changes in district/province specification at administrative level can affect our findings and policy outcomes. However, only one district was absorbed into another during our study. 
+  + Annual aggregate data is slow to be updated on government portals and might be prone to measurement error. However, these are still the most up-to-date data and most had information up to and including 2022. 
+  + Birth rate changes cannot be estimated as instantaneous policy reactions - it is natural to have a time lag between government incentives and actual on ground changes. While our study looks over a 7 year time horizon, the policy impact could well stretch into the future beyond the 3-4 years of active policy implementation we observed. 
+  + Our independent and dependent variables were captured at the district level, while some of our control variables were accessible only at the province level. Consequently, we conducted our regression analyses at the province level. Aggregating data from the district level to the province level may result in a loss of detail and granularity, which could mask important variations within provinces. Nonetheless, our two-way FE model demonstrated little variations within provinces. 
+
+- **Threats to internal validity include:**
+  + The government budget is not solely for childcare facilities, it is also allocated to women and family healthcare. This could potentially confound the results if not properly accounted for. To mitigate this, we considered enrollment data to isolate the impact of funding on childcare facilities and regressed capacity on budget. 
+  + Factors such as increased disposable income or reduced time for new parents to focus on children can also impact childcare centers’ enrollment. We partially address this by controlling for average household income per capita in our regressions. 
+  + The government might allocate more funds to regions with lower fertility rates or fewer childcare facilities. This is an example of reverse causality. In this case, the dependent variable might be influencing the independent variable, which would threaten the internal validity of the study. 
+
+- **Omitted variable bias and two-way fixed effects (TWFE):**
+  + In an earlier iteration, we used two-way fixed effects using time (year) and entity (province and district). However, this TWFE model accounted for ~100% of the variance in our observations and left no room for substantial analysis of the coefficient of enrollment on birth-rate. 
+  + While this is likely a further sign of the failure of the supply-side policy to boost birth-rates, we adjusted our model to remove entity fixed effects (as this netted a far higher R^2 than time fixed effects) and instead relied on a variety of control variables including GRDP.
+  + The downside of this is there are likely to be several time-invariant heterogeneous characteristics of entities (provinces and districts) which we are not controlling for, and we believe this is likely driving the negative coefficient on enrollment in PRF 2 because there are other factors driving the declining birth-rate in the country which are likely also correlated with enrollment. 
+
+\newpage
+
+# 9. Appendix
+
+## References
+
+- Daycare center usage way below government's 40 pct target: data (https://en.yna.co.kr/view/AEN20181010002700320)
+- South Korea has the world's lowest fertility rate (https://www.npr.org/2023/03/19/1163341684/south-korea-fertility-rate)
+
+## Mapping South Korea's capital/non-capital regions for context:
+
+\FloatBarrier
+
+```{r graph 6, fig.cap="South Korea province mapping", fig.width=7, fig.height=4}
+
+g2 <- ggplot(data = korea_1_df) +
+  geom_sf(aes(fill = Capital)) + 
+  theme_bw() + 
+  ggtitle("Korea Provinces") 
+g2
+
+```
+
+\FloatBarrier
