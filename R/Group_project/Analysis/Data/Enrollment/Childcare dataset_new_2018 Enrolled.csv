@@ -1,0 +1,1000 @@
+Classification,,,Total,Public childcare center,Social welfare corporation childcare center,Corporate organization childcare center,Private childcare center,Home childcare center,Parent cooperative childcare center,Workplace childcare center
+Nation Total,,Total,"1,415,742 ","200,783 ","92,787 ","41,298 ","711,209 ","302,674 ","4,360 ","62,631 "
+,,Male,"731,498 ","103,444 ","48,702 ","21,633 ","367,436 ","155,682 ","2,272 ","32,329 "
+,,Female,"684,244 ","97,339 ","44,085 ","19,665 ","343,773 ","146,992 ","2,088 ","30,302 "
+Seoul,Seoul Total,Total,"226,959 ","79,732 ","1,714 ","4,997 ","87,658 ","38,323 ",826 ,"13,709 "
+,Seoul Total,Male,"116,643 ","40,850 ",927 ,"2,629 ","45,016 ","19,805 ",419 ,"6,997 "
+,Seoul Total,Female,"110,316 ","38,882 ",787 ,"2,368 ","42,642 ","18,518 ",407 ,"6,712 "
+,Seoul Jongno-gu,Total,"3,829 ","1,791 ",77 ,118 ,368 ,57 ,0 ,"1,418 "
+,Seoul Jongno-gu,Male,"1,963 ",904 ,47 ,69 ,177 ,28 ,0 ,738 
+,Seoul Jongno-gu,Female,"1,866 ",887 ,30 ,49 ,191 ,29 ,0 ,680 
+,Seoul Jung-gu,Total,"3,500 ","1,702 ",0 ,319 ,335 ,228 ,0 ,916 
+,Seoul Jung-gu,Male,"1,830 ",908 ,0 ,168 ,175 ,105 ,0 ,474 
+,Seoul Jung-gu,Female,"1,670 ",794 ,0 ,151 ,160 ,123 ,0 ,442 
+,Seoul Yongsan-gu,Total,"4,764 ","1,790 ",73 ,294 ,"1,162 ",838 ,29 ,578 
+,Seoul Yongsan-gu,Male,"2,470 ",913 ,34 ,160 ,590 ,443 ,19 ,311 
+,Seoul Yongsan-gu,Female,"2,294 ",877 ,39 ,134 ,572 ,395 ,10 ,267 
+,Seoul Seongdong-gu,Total,"7,286 ","4,058 ",0 ,159 ,"1,664 ","1,184 ",0 ,221 
+,Seoul Seongdong-gu,Male,"3,703 ","2,066 ",0 ,83 ,855 ,580 ,0 ,119 
+,Seoul Seongdong-gu,Female,"3,583 ","1,992 ",0 ,76 ,809 ,604 ,0 ,102 
+,Seoul Gwangjin-gu,Total,"7,548 ","2,303 ",0 ,20 ,"4,098 ",987 ,37 ,103 
+,Seoul Gwangjin-gu,Male,"3,888 ","1,160 ",0 ,11 ,"2,106 ",540 ,20 ,51 
+,Seoul Gwangjin-gu,Female,"3,660 ","1,143 ",0 ,9 ,"1,992 ",447 ,17 ,52 
+,Seoul Dongdaemun-gu,Total,"7,997 ","3,293 ",0 ,163 ,"2,805 ","1,453 ",0 ,283 
+,Seoul Dongdaemun-gu,Male,"4,079 ","1,647 ",0 ,86 ,"1,468 ",750 ,0 ,128 
+,Seoul Dongdaemun-gu,Female,"3,918 ","1,646 ",0 ,77 ,"1,337 ",703 ,0 ,155 
+,Seoul Jungnang-gu,Total,"9,986 ","2,982 ",0 ,254 ,"5,078 ","1,521 ",0 ,151 
+,Seoul Jungnang-gu,Male,"5,161 ","1,534 ",0 ,137 ,"2,648 ",769 ,0 ,73 
+,Seoul Jungnang-gu,Female,"4,825 ","1,448 ",0 ,117 ,"2,430 ",752 ,0 ,78 
+,Seoul Seongbuk-gu,Total,"9,470 ","3,529 ",103 ,876 ,"3,056 ","1,670 ",34 ,202 
+,Seoul Seongbuk-gu,Male,"4,871 ","1,822 ",58 ,456 ,"1,567 ",838 ,18 ,112 
+,Seoul Seongbuk-gu,Female,"4,599 ","1,707 ",45 ,420 ,"1,489 ",832 ,16 ,90 
+,Seoul Gangbuk-gu,Total,"7,260 ","2,253 ",73 ,116 ,"4,115 ",613 ,24 ,66 
+,Seoul Gangbuk-gu,Male,"3,741 ","1,140 ",40 ,71 ,"2,103 ",337 ,11 ,39 
+,Seoul Gangbuk-gu,Female,"3,519 ","1,113 ",33 ,45 ,"2,012 ",276 ,13 ,27 
+,Seoul Dobong-gu,Total,"8,350 ","2,271 ",24 ,56 ,"4,207 ","1,631 ",28 ,133 
+,Seoul Dobong-gu,Male,"4,312 ","1,169 ",13 ,26 ,"2,146 ",878 ,18 ,62 
+,Seoul Dobong-gu,Female,"4,038 ","1,102 ",11 ,30 ,"2,061 ",753 ,10 ,71 
+,Seoul Nowon-gu,Total,"11,689 ","3,977 ",168 ,0 ,"3,042 ","4,213 ",27 ,262 
+,Seoul Nowon-gu,Male,"5,984 ","2,018 ",86 ,0 ,"1,561 ","2,170 ",18 ,131 
+,Seoul Nowon-gu,Female,"5,705 ","1,959 ",82 ,0 ,"1,481 ","2,043 ",9 ,131 
+,Seoul Eunpyeong-gu,Total,"11,719 ","2,579 ",63 ,195 ,"7,730 ","1,054 ",32 ,66 
+,Seoul Eunpyeong-gu,Male,"6,020 ","1,358 ",37 ,92 ,"3,966 ",527 ,11 ,29 
+,Seoul Eunpyeong-gu,Female,"5,699 ","1,221 ",26 ,103 ,"3,764 ",527 ,21 ,37 
+,Seoul Seodaemun-gu,Total,"6,346 ","2,702 ",0 ,111 ,"2,281 ",819 ,16 ,417 
+,Seoul Seodaemun-gu,Male,"3,239 ","1,393 ",0 ,59 ,"1,109 ",452 ,7 ,219 
+,Seoul Seodaemun-gu,Female,"3,107 ","1,309 ",0 ,52 ,"1,172 ",367 ,9 ,198 
+,Seoul Mapo-gu,Total,"8,224 ","3,819 ",0 ,179 ,"2,259 ","1,311 ",145 ,511 
+,Seoul Mapo-gu,Male,"4,159 ","1,944 ",0 ,91 ,"1,121 ",679 ,76 ,248 
+,Seoul Mapo-gu,Female,"4,065 ","1,875 ",0 ,88 ,"1,138 ",632 ,69 ,263 
+,Seoul Yangcheon-gu,Total,"10,853 ","3,984 ",0 ,53 ,"4,048 ","2,491 ",16 ,261 
+,Seoul Yangcheon-gu,Male,"5,577 ","2,072 ",0 ,27 ,"2,080 ","1,250 ",9 ,139 
+,Seoul Yangcheon-gu,Female,"5,276 ","1,912 ",0 ,26 ,"1,968 ","1,241 ",7 ,122 
+,Seoul Gangseo-gu,Total,"15,583 ","3,952 ",259 ,116 ,"7,196 ","3,347 ",66 ,647 
+,Seoul Gangseo-gu,Male,"8,068 ","2,051 ",144 ,51 ,"3,710 ","1,732 ",33 ,347 
+,Seoul Gangseo-gu,Female,"7,515 ","1,901 ",115 ,65 ,"3,486 ","1,615 ",33 ,300 
+,Seoul Guro-gu,Total,"11,886 ","3,697 ",279 ,411 ,"4,675 ","2,395 ",107 ,322 
+,Seoul Guro-gu,Male,"6,077 ","1,886 ",152 ,221 ,"2,356 ","1,250 ",46 ,166 
+,Seoul Guro-gu,Female,"5,809 ","1,811 ",127 ,190 ,"2,319 ","1,145 ",61 ,156 
+,Seoul Geumcheon-gu,Total,"6,722 ","2,357 ",220 ,549 ,"2,495 ",778 ,8 ,315 
+,Seoul Geumcheon-gu,Male,"3,430 ","1,204 ",112 ,276 ,"1,277 ",400 ,3 ,158 
+,Seoul Geumcheon-gu,Female,"3,292 ","1,153 ",108 ,273 ,"1,218 ",378 ,5 ,157 
+,Seoul Yeongdeungpo-gu,Total,"10,469 ","3,299 ",104 ,40 ,"3,252 ","1,634 ",0 ,"2,140 "
+,Seoul Yeongdeungpo-gu,Male,"5,339 ","1,653 ",57 ,22 ,"1,660 ",863 ,0 ,"1,084 "
+,Seoul Yeongdeungpo-gu,Female,"5,130 ","1,646 ",47 ,18 ,"1,592 ",771 ,0 ,"1,056 "
+,Seoul Dongjak-gu,Total,"8,398 ","3,368 ",86 ,92 ,"3,159 ","1,412 ",40 ,241 
+,Seoul Dongjak-gu,Male,"4,333 ","1,738 ",51 ,55 ,"1,630 ",717 ,23 ,119 
+,Seoul Dongjak-gu,Female,"4,065 ","1,630 ",35 ,37 ,"1,529 ",695 ,17 ,122 
+,Seoul Gwanak-gu,Total,"9,820 ","3,806 ",27 ,365 ,"3,483 ","1,636 ",9 ,494 
+,Seoul Gwanak-gu,Male,"5,044 ","1,945 ",15 ,211 ,"1,784 ",823 ,3 ,263 
+,Seoul Gwanak-gu,Female,"4,776 ","1,861 ",12 ,154 ,"1,699 ",813 ,6 ,231 
+,Seoul Seocho-gu,Total,"9,040 ","4,307 ",0 ,221 ,"1,900 ","1,103 ",72 ,"1,437 "
+,Seoul Seocho-gu,Male,"4,595 ","2,201 ",0 ,113 ,973 ,569 ,39 ,700 
+,Seoul Seocho-gu,Female,"4,445 ","2,106 ",0 ,108 ,927 ,534 ,33 ,737 
+,Seoul Gangnam-gu,Total,"9,371 ","4,018 ",0 ,0 ,"3,022 ","1,076 ",61 ,"1,194 "
+,Seoul Gangnam-gu,Male,"4,810 ","2,061 ",0 ,0 ,"1,547 ",560 ,27 ,615 
+,Seoul Gangnam-gu,Female,"4,561 ","1,957 ",0 ,0 ,"1,475 ",516 ,34 ,579 
+,Seoul Songpa-gu,Total,"15,307 ","4,329 ",76 ,149 ,"6,564 ","3,080 ",58 ,"1,051 "
+,Seoul Songpa-gu,Male,"7,901 ","2,220 ",37 ,69 ,"3,441 ","1,573 ",33 ,528 
+,Seoul Songpa-gu,Female,"7,406 ","2,109 ",39 ,80 ,"3,123 ","1,507 ",25 ,523 
+,Seoul Gangdong-gu,Total,"11,542 ","3,566 ",82 ,141 ,"5,664 ","1,792 ",17 ,280 
+,Seoul Gangdong-gu,Male,"6,049 ","1,843 ",44 ,75 ,"2,966 ",972 ,5 ,144 
+,Seoul Gangdong-gu,Female,"5,493 ","1,723 ",38 ,66 ,"2,698 ",820 ,12 ,136 
+Busan,Busan Total,Total,"73,586 ","11,574 ","5,655 ","2,350 ","38,161 ","13,029 ",309 ,"2,508 "
+,Busan Total,Male,"38,074 ","5,992 ","2,994 ","1,234 ","19,787 ","6,610 ",164 ,"1,293 "
+,Busan Total,Female,"35,512 ","5,582 ","2,661 ","1,116 ","18,374 ","6,419 ",145 ,"1,215 "
+,Busan Jung-gu,Total,775 ,285 ,42 ,0 ,339 ,37 ,0 ,72 
+,Busan Jung-gu,Male,420 ,154 ,28 ,0 ,182 ,22 ,0 ,34 
+,Busan Jung-gu,Female,355 ,131 ,14 ,0 ,157 ,15 ,0 ,38 
+,Busan Seo-gu,Total,"1,671 ",647 ,111 ,129 ,680 ,104 ,0 ,0 
+,Busan Seo-gu,Male,891 ,332 ,61 ,77 ,371 ,50 ,0 ,0 
+,Busan Seo-gu,Female,780 ,315 ,50 ,52 ,309 ,54 ,0 ,0 
+,Busan Dong-gu,Total,"1,597 ",488 ,187 ,106 ,549 ,110 ,0 ,157 
+,Busan Dong-gu,Male,846 ,265 ,97 ,52 ,298 ,55 ,0 ,79 
+,Busan Dong-gu,Female,751 ,223 ,90 ,54 ,251 ,55 ,0 ,78 
+,Busan Yeongdo-gu,Total,"2,130 ",764 ,85 ,371 ,678 ,163 ,0 ,69 
+,Busan Yeongdo-gu,Male,"1,080 ",383 ,38 ,186 ,354 ,83 ,0 ,36 
+,Busan Yeongdo-gu,Female,"1,050 ",381 ,47 ,185 ,324 ,80 ,0 ,33 
+,Busan Busanjin-gu,Total,"6,195 ","1,278 ",365 ,164 ,"2,825 ","1,029 ",35 ,499 
+,Busan Busanjin-gu,Male,"3,174 ",655 ,194 ,96 ,"1,430 ",527 ,21 ,251 
+,Busan Busanjin-gu,Female,"3,021 ",623 ,171 ,68 ,"1,395 ",502 ,14 ,248 
+,Busan Dongnae-gu,Total,"5,410 ",819 ,297 ,0 ,"3,371 ",691 ,67 ,165 
+,Busan Dongnae-gu,Male,"2,866 ",426 ,153 ,0 ,"1,806 ",360 ,32 ,89 
+,Busan Dongnae-gu,Female,"2,544 ",393 ,144 ,0 ,"1,565 ",331 ,35 ,76 
+,Busan Nam-gu,Total,"5,540 ","1,155 ",426 ,126 ,"2,430 ","1,073 ",47 ,283 
+,Busan Nam-gu,Male,"2,859 ",594 ,234 ,68 ,"1,219 ",570 ,28 ,146 
+,Busan Nam-gu,Female,"2,681 ",561 ,192 ,58 ,"1,211 ",503 ,19 ,137 
+,Busan Buk-gu,Total,"6,473 ",467 ,411 ,37 ,"3,973 ","1,525 ",50 ,10 
+,Busan Buk-gu,Male,"3,351 ",247 ,223 ,21 ,"2,054 ",776 ,26 ,4 
+,Busan Buk-gu,Female,"3,122 ",220 ,188 ,16 ,"1,919 ",749 ,24 ,6 
+,Busan Haeundae-gu,Total,"8,095 ",943 ,928 ,85 ,"4,519 ","1,391 ",17 ,212 
+,Busan Haeundae-gu,Male,"4,211 ",477 ,497 ,44 ,"2,366 ",706 ,8 ,113 
+,Busan Haeundae-gu,Female,"3,884 ",466 ,431 ,41 ,"2,153 ",685 ,9 ,99 
+,Busan Saha-gu,Total,"8,170 ","1,489 ",645 ,572 ,"3,966 ","1,449 ",0 ,49 
+,Busan Saha-gu,Male,"4,263 ",782 ,335 ,301 ,"2,065 ",750 ,0 ,30 
+,Busan Saha-gu,Female,"3,907 ",707 ,310 ,271 ,"1,901 ",699 ,0 ,19 
+,Busan Geumjeong-gu,Total,"4,381 ",599 ,363 ,43 ,"2,643 ",507 ,41 ,185 
+,Busan Geumjeong-gu,Male,"2,269 ",319 ,194 ,24 ,"1,377 ",238 ,25 ,92 
+,Busan Geumjeong-gu,Female,"2,112 ",280 ,169 ,19 ,"1,266 ",269 ,16 ,93 
+,Busan Gangseo-gu,Total,"4,690 ",391 ,579 ,0 ,"2,017 ","1,360 ",0 ,343 
+,Busan Gangseo-gu,Male,"2,391 ",192 ,294 ,0 ,"1,049 ",667 ,0 ,189 
+,Busan Gangseo-gu,Female,"2,299 ",199 ,285 ,0 ,968 ,693 ,0 ,154 
+,Busan Yeonje-gu,Total,"4,234 ",381 ,201 ,369 ,"2,605 ",481 ,0 ,197 
+,Busan Yeonje-gu,Male,"2,130 ",195 ,95 ,192 ,"1,314 ",242 ,0 ,92 
+,Busan Yeonje-gu,Female,"2,104 ",186 ,106 ,177 ,"1,291 ",239 ,0 ,105 
+,Busan Suyeong-gu,Total,"3,335 ",370 ,423 ,150 ,"2,056 ",325 ,0 ,11 
+,Busan Suyeong-gu,Male,"1,748 ",202 ,233 ,69 ,"1,075 ",165 ,0 ,4 
+,Busan Suyeong-gu,Female,"1,587 ",168 ,190 ,81 ,981 ,160 ,0 ,7 
+,Busan Sasang-gu,Total,"4,646 ",814 ,165 ,198 ,"2,433 ","1,031 ",0 ,5 
+,Busan Sasang-gu,Male,"2,363 ",408 ,92 ,104 ,"1,252 ",505 ,0 ,2 
+,Busan Sasang-gu,Female,"2,283 ",406 ,73 ,94 ,"1,181 ",526 ,0 ,3 
+,Busan Gijang-gun,Total,"6,244 ",684 ,427 ,0 ,"3,077 ","1,753 ",52 ,251 
+,Busan Gijang-gun,Male,"3,212 ",361 ,226 ,0 ,"1,575 ",894 ,24 ,132 
+,Busan Gijang-gun,Female,"3,032 ",323 ,201 ,0 ,"1,502 ",859 ,28 ,119 
+Daegu,Daegu Total,Total,"56,943 ","4,982 ","10,069 ","1,514 ","30,927 ","7,679 ",102 ,"1,670 "
+,Daegu Total,Male,"29,489 ","2,603 ","5,321 ",801 ,"15,968 ","3,877 ",51 ,868 
+,Daegu Total,Female,"27,454 ","2,379 ","4,748 ",713 ,"14,959 ","3,802 ",51 ,802 
+,Daegu Jung-gu,Total,"1,530 ",151 ,261 ,71 ,735 ,166 ,0 ,146 
+,Daegu Jung-gu,Male,770 ,79 ,129 ,41 ,363 ,80 ,0 ,78 
+,Daegu Jung-gu,Female,760 ,72 ,132 ,30 ,372 ,86 ,0 ,68 
+,Daegu Dong-gu,Total,"8,541 ",753 ,"1,257 ",126 ,"5,063 ",927 ,19 ,396 
+,Daegu Dong-gu,Male,"4,406 ",378 ,611 ,75 ,"2,650 ",475 ,11 ,206 
+,Daegu Dong-gu,Female,"4,135 ",375 ,646 ,51 ,"2,413 ",452 ,8 ,190 
+,Daegu Seo-gu,Total,"4,379 ",346 ,415 ,183 ,"2,951 ",446 ,0 ,38 
+,Daegu Seo-gu,Male,"2,255 ",175 ,224 ,91 ,"1,533 ",212 ,0 ,20 
+,Daegu Seo-gu,Female,"2,124 ",171 ,191 ,92 ,"1,418 ",234 ,0 ,18 
+,Daegu Nam-gu,Total,"2,679 ",241 ,"1,058 ",248 ,955 ,131 ,19 ,27 
+,Daegu Nam-gu,Male,"1,379 ",125 ,551 ,127 ,490 ,65 ,8 ,13 
+,Daegu Nam-gu,Female,"1,300 ",116 ,507 ,121 ,465 ,66 ,11 ,14 
+,Daegu Buk-gu,Total,"10,669 ",571 ,"1,850 ",156 ,"6,084 ","1,839 ",15 ,154 
+,Daegu Buk-gu,Male,"5,543 ",312 ,"1,008 ",84 ,"3,142 ",900 ,6 ,91 
+,Daegu Buk-gu,Female,"5,126 ",259 ,842 ,72 ,"2,942 ",939 ,9 ,63 
+,Daegu Suseong-gu,Total,"7,814 ",878 ,"2,489 ",200 ,"2,999 ",735 ,36 ,477 
+,Daegu Suseong-gu,Male,"4,051 ",466 ,"1,320 ",104 ,"1,525 ",371 ,20 ,245 
+,Daegu Suseong-gu,Female,"3,763 ",412 ,"1,169 ",96 ,"1,474 ",364 ,16 ,232 
+,Daegu Dalseo-gu,Total,"13,110 ",919 ,"1,612 ",530 ,"7,518 ","2,239 ",0 ,292 
+,Daegu Dalseo-gu,Male,"6,902 ",486 ,882 ,279 ,"3,934 ","1,169 ",0 ,152 
+,Daegu Dalseo-gu,Female,"6,208 ",433 ,730 ,251 ,"3,584 ","1,070 ",0 ,140 
+,Daegu Dalseong-gun,Total,"8,221 ","1,123 ","1,127 ",0 ,"4,622 ","1,196 ",13 ,140 
+,Daegu Dalseong-gun,Male,"4,183 ",582 ,596 ,0 ,"2,331 ",605 ,6 ,63 
+,Daegu Dalseong-gun,Female,"4,038 ",541 ,531 ,0 ,"2,291 ",591 ,7 ,77 
+Incheon,Incheon Total,Total,"79,164 ","9,433 ",858 ,998 ,"46,489 ","17,906 ",182 ,"3,298 "
+,Incheon Total,Male,"41,027 ","4,904 ",460 ,532 ,"24,063 ","9,257 ",95 ,"1,716 "
+,Incheon Total,Female,"38,137 ","4,529 ",398 ,466 ,"22,426 ","8,649 ",87 ,"1,582 "
+,Incheon Jung-gu,Total,"3,581 ",735 ,63 ,32 ,922 ,951 ,0 ,878 
+,Incheon Jung-gu,Male,"1,831 ",345 ,36 ,22 ,469 ,496 ,0 ,463 
+,Incheon Jung-gu,Female,"1,750 ",390 ,27 ,10 ,453 ,455 ,0 ,415 
+,Incheon Dong-gu,Total,"1,771 ",488 ,0 ,0 ,817 ,342 ,0 ,124 
+,Incheon Dong-gu,Male,938 ,280 ,0 ,0 ,428 ,166 ,0 ,64 
+,Incheon Dong-gu,Female,833 ,208 ,0 ,0 ,389 ,176 ,0 ,60 
+,Incheon Michuhol-gu,Total,"10,554 ","1,207 ",217 ,123 ,"7,043 ","1,586 ",71 ,307 
+,Incheon Michuhol-gu,Male,"5,466 ",616 ,115 ,61 ,"3,622 ",840 ,37 ,175 
+,Incheon Michuhol-gu,Female,"5,088 ",591 ,102 ,62 ,"3,421 ",746 ,34 ,132 
+,Incheon Yeonsu-gu,Total,"8,978 ","1,432 ",0 ,39 ,"4,391 ","2,686 ",0 ,430 
+,Incheon Yeonsu-gu,Male,"4,607 ",758 ,0 ,17 ,"2,240 ","1,388 ",0 ,204 
+,Incheon Yeonsu-gu,Female,"4,371 ",674 ,0 ,22 ,"2,151 ","1,298 ",0 ,226 
+,Incheon Namdong-gu,Total,"14,400 ","1,851 ",227 ,182 ,"8,777 ","3,006 ",0 ,357 
+,Incheon Namdong-gu,Male,"7,497 ",946 ,119 ,95 ,"4,585 ","1,558 ",0 ,194 
+,Incheon Namdong-gu,Female,"6,903 ",905 ,108 ,87 ,"4,192 ","1,448 ",0 ,163 
+,Incheon Bupyong-gu,Total,"13,581 ","1,162 ",284 ,179 ,"8,019 ","3,370 ",59 ,508 
+,Incheon Bupyong-gu,Male,"7,040 ",655 ,144 ,100 ,"4,115 ","1,745 ",33 ,248 
+,Incheon Bupyong-gu,Female,"6,541 ",507 ,140 ,79 ,"3,904 ","1,625 ",26 ,260 
+,Incheon Gyeyang-gu,Total,"8,414 ",718 ,0 ,30 ,"5,891 ","1,629 ",27 ,119 
+,Incheon Gyeyang-gu,Male,"4,341 ",377 ,0 ,12 ,"3,063 ",812 ,12 ,65 
+,Incheon Gyeyang-gu,Female,"4,073 ",341 ,0 ,18 ,"2,828 ",817 ,15 ,54 
+,Incheon Seo-gu,Total,"16,727 ","1,289 ",67 ,357 ,"10,193 ","4,270 ",25 ,526 
+,Incheon Seo-gu,Male,"8,714 ",647 ,46 ,193 ,"5,322 ","2,217 ",13 ,276 
+,Incheon Seo-gu,Female,"8,013 ",642 ,21 ,164 ,"4,871 ","2,053 ",12 ,250 
+,Incheon Ganghwa-gun,Total,836 ,371 ,0 ,56 ,343 ,46 ,0 ,20 
+,Incheon Ganghwa-gun,Male,425 ,187 ,0 ,32 ,171 ,22 ,0 ,13 
+,Incheon Ganghwa-gun,Female,411 ,184 ,0 ,24 ,172 ,24 ,0 ,7 
+,Incheon Ongjin-gun,Total,322 ,180 ,0 ,0 ,93 ,20 ,0 ,29 
+,Incheon Ongjin-gun,Male,168 ,93 ,0 ,0 ,48 ,13 ,0 ,14 
+,Incheon Ongjin-gun,Female,154 ,87 ,0 ,0 ,45 ,7 ,0 ,15 
+Gwangju,Gwangju Total,Total,"44,134 ","2,303 ","7,785 ","1,383 ","22,441 ","8,581 ",186 ,"1,455 "
+,Gwangju Total,Male,"22,924 ","1,174 ","4,134 ",748 ,"11,629 ","4,373 ",99 ,767 
+,Gwangju Total,Female,"21,210 ","1,129 ","3,651 ",635 ,"10,812 ","4,208 ",87 ,688 
+,Gwangju Dong-gu,Total,"2,287 ",59 ,544 ,114 ,"1,107 ",170 ,0 ,293 
+,Gwangju Dong-gu,Male,"1,180 ",28 ,271 ,62 ,577 ,86 ,0 ,156 
+,Gwangju Dong-gu,Female,"1,107 ",31 ,273 ,52 ,530 ,84 ,0 ,137 
+,Gwangju Seo-gu,Total,"7,707 ",750 ,"1,177 ",64 ,"3,362 ","1,960 ",29 ,365 
+,Gwangju Seo-gu,Male,"4,036 ",359 ,677 ,32 ,"1,721 ","1,041 ",17 ,189 
+,Gwangju Seo-gu,Female,"3,671 ",391 ,500 ,32 ,"1,641 ",919 ,12 ,176 
+,Gwangju Nam-gu,Total,"5,542 ",243 ,"1,344 ",492 ,"2,576 ",802 ,55 ,30 
+,Gwangju Nam-gu,Male,"2,902 ",143 ,700 ,261 ,"1,333 ",420 ,28 ,17 
+,Gwangju Nam-gu,Female,"2,640 ",100 ,644 ,231 ,"1,243 ",382 ,27 ,13 
+,Gwangju Buk-gu,Total,"12,664 ",779 ,"2,535 ",541 ,"6,282 ","2,072 ",0 ,455 
+,Gwangju Buk-gu,Male,"6,506 ",394 ,"1,331 ",300 ,"3,241 ","1,007 ",0 ,233 
+,Gwangju Buk-gu,Female,"6,158 ",385 ,"1,204 ",241 ,"3,041 ","1,065 ",0 ,222 
+,Gwangju Gwangsan-gu,Total,"15,934 ",472 ,"2,185 ",172 ,"9,114 ","3,577 ",102 ,312 
+,Gwangju Gwangsan-gu,Male,"8,300 ",250 ,"1,155 ",93 ,"4,757 ","1,819 ",54 ,172 
+,Gwangju Gwangsan-gu,Female,"7,634 ",222 ,"1,030 ",79 ,"4,357 ","1,758 ",48 ,140 
+Daejeon,Daejeon Total,Total,"41,553 ","1,868 ","2,836 ",582 ,"18,033 ","14,214 ",255 ,"3,765 "
+,Daejeon Total,Male,"21,455 ","1,005 ","1,467 ",314 ,"9,300 ","7,327 ",131 ,"1,911 "
+,Daejeon Total,Female,"20,098 ",863 ,"1,369 ",268 ,"8,733 ","6,887 ",124 ,"1,854 "
+,Daejeon Dong-gu,Total,"6,119 ",246 ,777 ,121 ,"3,391 ","1,418 ",34 ,132 
+,Daejeon Dong-gu,Male,"3,151 ",125 ,403 ,69 ,"1,719 ",756 ,19 ,60 
+,Daejeon Dong-gu,Female,"2,968 ",121 ,374 ,52 ,"1,672 ",662 ,15 ,72 
+,Daejeon Jung-gu,Total,"5,752 ",211 ,367 ,100 ,"3,342 ","1,544 ",48 ,140 
+,Daejeon Jung-gu,Male,"3,038 ",118 ,184 ,48 ,"1,768 ",833 ,23 ,64 
+,Daejeon Jung-gu,Female,"2,714 ",93 ,183 ,52 ,"1,574 ",711 ,25 ,76 
+,Daejeon Seo-gu,Total,"12,800 ",527 ,463 ,164 ,"5,048 ","5,329 ",85 ,"1,184 "
+,Daejeon Seo-gu,Male,"6,643 ",286 ,237 ,90 ,"2,625 ","2,769 ",42 ,594 
+,Daejeon Seo-gu,Female,"6,157 ",241 ,226 ,74 ,"2,423 ","2,560 ",43 ,590 
+,Daejeon Yuseong-gu,Total,"12,191 ",384 ,833 ,88 ,"4,205 ","4,528 ",88 ,"2,065 "
+,Daejeon Yuseong-gu,Male,"6,231 ",209 ,428 ,51 ,"2,157 ","2,270 ",47 ,"1,069 "
+,Daejeon Yuseong-gu,Female,"5,960 ",175 ,405 ,37 ,"2,048 ","2,258 ",41 ,996 
+,Daejeon Daedeok-gu,Total,"4,691 ",500 ,396 ,109 ,"2,047 ","1,395 ",0 ,244 
+,Daejeon Daedeok-gu,Male,"2,392 ",267 ,215 ,56 ,"1,031 ",699 ,0 ,124 
+,Daejeon Daedeok-gu,Female,"2,299 ",233 ,181 ,53 ,"1,016 ",696 ,0 ,120 
+Ulsan,Ulsan Total,Total,"34,436 ","2,813 ",812 ,465 ,"23,165 ","5,269 ",154 ,"1,758 "
+,Ulsan Total,Male,"17,929 ","1,519 ",447 ,243 ,"11,959 ","2,776 ",72 ,913 
+,Ulsan Total,Female,"16,507 ","1,294 ",365 ,222 ,"11,206 ","2,493 ",82 ,845 
+,Ulsan Jung-gu,Total,"6,172 ",306 ,180 ,0 ,"4,471 ",711 ,40 ,464 
+,Ulsan Jung-gu,Male,"3,187 ",161 ,96 ,0 ,"2,308 ",359 ,17 ,246 
+,Ulsan Jung-gu,Female,"2,985 ",145 ,84 ,0 ,"2,163 ",352 ,23 ,218 
+,Ulsan Nam-gu,Total,"8,298 ",746 ,43 ,0 ,"5,403 ","1,692 ",79 ,335 
+,Ulsan Nam-gu,Male,"4,322 ",403 ,26 ,0 ,"2,796 ",884 ,40 ,173 
+,Ulsan Nam-gu,Female,"3,976 ",343 ,17 ,0 ,"2,607 ",808 ,39 ,162 
+,Ulsan Dong-gu,Total,"6,244 ",606 ,0 ,0 ,"4,514 ",829 ,0 ,295 
+,Ulsan Dong-gu,Male,"3,224 ",334 ,0 ,0 ,"2,308 ",430 ,0 ,152 
+,Ulsan Dong-gu,Female,"3,020 ",272 ,0 ,0 ,"2,206 ",399 ,0 ,143 
+,Ulsan Buk-gu,Total,"7,638 ",626 ,115 ,226 ,"4,907 ","1,516 ",35 ,213 
+,Ulsan Buk-gu,Male,"4,021 ",336 ,61 ,122 ,"2,556 ",820 ,15 ,111 
+,Ulsan Buk-gu,Female,"3,617 ",290 ,54 ,104 ,"2,351 ",696 ,20 ,102 
+,Ulsan Ulju-gun ,Total,"6,084 ",529 ,474 ,239 ,"3,870 ",521 ,0 ,451 
+,Ulsan Ulju-gun ,Male,"3,175 ",285 ,264 ,121 ,"1,991 ",283 ,0 ,231 
+,Ulsan Ulju-gun ,Female,"2,909 ",244 ,210 ,118 ,"1,879 ",238 ,0 ,220 
+Sejong,Sejong Total,Total,"14,298 ","1,656 ",604 ,330 ,"6,506 ","3,104 ",0 ,"2,098 "
+,Sejong Total,Male,"7,413 ",844 ,316 ,169 ,"3,369 ","1,618 ",0 ,"1,097 "
+,Sejong Total,Female,"6,885 ",812 ,288 ,161 ,"3,137 ","1,486 ",0 ,"1,001 "
+,Sejong,Total,"14,298 ","1,656 ",604 ,330 ,"6,506 ","3,104 ",0 ,"2,098 "
+,,Male,"7,413 ",844 ,316 ,169 ,"3,369 ","1,618 ",0 ,"1,097 "
+,,Female,"6,885 ",812 ,288 ,161 ,"3,137 ","1,486 ",0 ,"1,001 "
+Gyeonggi,Gyeonggi Total,Total,"393,149 ","46,461 ","4,373 ","7,743 ","208,017 ","109,721 ","1,747 ","15,087 "
+,Gyeonggi Total,Male,"203,265 ","23,990 ","2,311 ","4,094 ","107,687 ","56,403 ",932 ,"7,848 "
+,Gyeonggi Total,Female,"189,884 ","22,471 ","2,062 ","3,649 ","100,330 ","53,318 ",815 ,"7,239 "
+,Gyeonggi Goyang-si,Total,"26,382 ","3,392 ",200 ,186 ,"12,960 ","8,142 ",191 ,"1,311 "
+,Gyeonggi Goyang-si,Male,"13,603 ","1,746 ",107 ,101 ,"6,655 ","4,205 ",98 ,691 
+,Gyeonggi Goyang-si,Female,"12,779 ","1,646 ",93 ,85 ,"6,305 ","3,937 ",93 ,620 
+,Gyeonggi Uijeongbu-si,Total,"13,313 ","1,039 ",44 ,174 ,"7,479 ","4,220 ",20 ,337 
+,Gyeonggi Uijeongbu-si,Male,"6,931 ",554 ,23 ,90 ,"3,892 ","2,183 ",12 ,177 
+,Gyeonggi Uijeongbu-si,Female,"6,382 ",485 ,21 ,84 ,"3,587 ","2,037 ",8 ,160 
+,Gyeonggi Namyangju-si,Total,"22,070 ","2,594 ",206 ,815 ,"12,285 ","6,076 ",35 ,59 
+,Gyeonggi Namyangju-si,Male,"11,409 ","1,326 ",110 ,437 ,"6,436 ","3,052 ",17 ,31 
+,Gyeonggi Namyangju-si,Female,"10,661 ","1,268 ",96 ,378 ,"5,849 ","3,024 ",18 ,28 
+,Gyeonggi Paju-si,Total,"14,505 ",858 ,210 ,39 ,"7,705 ","4,749 ",33 ,911 
+,Gyeonggi Paju-si,Male,"7,551 ",473 ,110 ,28 ,"4,027 ","2,406 ",16 ,491 
+,Gyeonggi Paju-si,Female,"6,954 ",385 ,100 ,11 ,"3,678 ","2,343 ",17 ,420 
+,Gyeonggi Guri-si,Total,"5,339 ",821 ,0 ,185 ,"2,377 ","1,870 ",0 ,86 
+,Gyeonggi Guri-si,Male,"2,810 ",418 ,0 ,103 ,"1,239 ","1,000 ",0 ,50 
+,Gyeonggi Guri-si,Female,"2,529 ",403 ,0 ,82 ,"1,138 ",870 ,0 ,36 
+,Gyeonggi Pocheon-si,Total,"4,398 ",716 ,0 ,98 ,"2,651 ",564 ,111 ,258 
+,Gyeonggi Pocheon-si,Male,"2,305 ",352 ,0 ,51 ,"1,403 ",314 ,58 ,127 
+,Gyeonggi Pocheon-si,Female,"2,093 ",364 ,0 ,47 ,"1,248 ",250 ,53 ,131 
+,Gyeonggi Yangju-si,Total,"7,482 ",933 ,0 ,61 ,"4,347 ","1,961 ",0 ,180 
+,Gyeonggi Yangju-si,Male,"3,883 ",492 ,0 ,35 ,"2,253 ","1,013 ",0 ,90 
+,Gyeonggi Yangju-si,Female,"3,599 ",441 ,0 ,26 ,"2,094 ",948 ,0 ,90 
+,Gyeonggi Dongducheon-si,Total,"3,265 ",483 ,34 ,68 ,"1,900 ",780 ,0 ,0 
+,Gyeonggi Dongducheon-si,Male,"1,717 ",251 ,25 ,35 ,"1,013 ",393 ,0 ,0 
+,Gyeonggi Dongducheon-si,Female,"1,548 ",232 ,9 ,33 ,887 ,387 ,0 ,0 
+,Gyeonggi Gapyeong-gun,Total,"1,494 ",268 ,59 ,81 ,803 ,192 ,0 ,91 
+,Gyeonggi Gapyeong-gun,Male,760 ,144 ,27 ,46 ,407 ,89 ,0 ,47 
+,Gyeonggi Gapyeong-gun,Female,734 ,124 ,32 ,35 ,396 ,103 ,0 ,44 
+,Gyeonggi Yeoncheon-gun,Total,"1,067 ",304 ,89 ,42 ,328 ,177 ,0 ,127 
+,Gyeonggi Yeoncheon-gun,Male,537 ,153 ,54 ,19 ,162 ,82 ,0 ,67 
+,Gyeonggi Yeoncheon-gun,Female,530 ,151 ,35 ,23 ,166 ,95 ,0 ,60 
+,Gyeonggi Suwon-si,Total,"33,819 ","3,344 ",231 ,487 ,"16,211 ","11,246 ",73 ,"2,227 "
+,Gyeonggi Suwon-si,Male,"17,534 ","1,738 ",116 ,259 ,"8,367 ","5,829 ",52 ,"1,173 "
+,Gyeonggi Suwon-si,Female,"16,285 ","1,606 ",115 ,228 ,"7,844 ","5,417 ",21 ,"1,054 "
+,Gyeonggi Seongnam-si,Total,"22,916 ","5,485 ",78 ,744 ,"7,317 ","6,191 ",208 ,"2,893 "
+,Gyeonggi Seongnam-si,Male,"11,847 ","2,837 ",45 ,389 ,"3,789 ","3,215 ",113 ,"1,459 "
+,Gyeonggi Seongnam-si,Female,"11,069 ","2,648 ",33 ,355 ,"3,528 ","2,976 ",95 ,"1,434 "
+,Gyeonggi Anyang-si,Total,"15,107 ","2,239 ",103 ,48 ,"7,234 ","5,056 ",61 ,366 
+,Gyeonggi Anyang-si,Male,"7,719 ","1,132 ",64 ,22 ,"3,734 ","2,542 ",29 ,196 
+,Gyeonggi Anyang-si,Female,"7,388 ","1,107 ",39 ,26 ,"3,500 ","2,514 ",32 ,170 
+,Gyeonggi Bucheon-si,Total,"20,357 ","2,173 ",192 ,915 ,"11,455 ","5,046 ",92 ,484 
+,Gyeonggi Bucheon-si,Male,"10,481 ","1,120 ",103 ,468 ,"5,909 ","2,583 ",51 ,247 
+,Gyeonggi Bucheon-si,Female,"9,876 ","1,053 ",89 ,447 ,"5,546 ","2,463 ",41 ,237 
+,Gyeonggi Gwangmyeong-si,Total,"9,327 ","1,980 ",54 ,158 ,"3,969 ","2,892 ",61 ,213 
+,Gyeonggi Gwangmyeong-si,Male,"4,834 ","1,023 ",20 ,90 ,"2,087 ","1,467 ",33 ,114 
+,Gyeonggi Gwangmyeong-si,Female,"4,493 ",957 ,34 ,68 ,"1,882 ","1,425 ",28 ,99 
+,Gyeonggi Pyeongtaek-si,Total,"14,970 ","1,215 ",195 ,186 ,"9,588 ","3,117 ",19 ,650 
+,Gyeonggi Pyeongtaek-si,Male,"7,710 ",625 ,94 ,99 ,"4,935 ","1,595 ",13 ,349 
+,Gyeonggi Pyeongtaek-si,Female,"7,260 ",590 ,101 ,87 ,"4,653 ","1,522 ",6 ,301 
+,Gyeonggi Ansan-si,Total,"19,275 ","1,884 ",0 ,400 ,"12,313 ","4,172 ",57 ,449 
+,Gyeonggi Ansan-si,Male,"9,915 ",933 ,0 ,189 ,"6,353 ","2,182 ",28 ,230 
+,Gyeonggi Ansan-si,Female,"9,360 ",951 ,0 ,211 ,"5,960 ","1,990 ",29 ,219 
+,Gyeonggi Gwacheon-si,Total,"2,205 ",605 ,76 ,0 ,316 ,337 ,139 ,732 
+,Gyeonggi Gwacheon-si,Male,"1,194 ",329 ,35 ,0 ,175 ,173 ,85 ,397 
+,Gyeonggi Gwacheon-si,Female,"1,011 ",276 ,41 ,0 ,141 ,164 ,54 ,335 
+,Gyeonggi Osan-si,Total,"8,442 ","2,147 ",36 ,129 ,"3,323 ","2,667 ",0 ,140 
+,Gyeonggi Osan-si,Male,"4,360 ","1,110 ",26 ,68 ,"1,745 ","1,354 ",0 ,57 
+,Gyeonggi Osan-si,Female,"4,082 ","1,037 ",10 ,61 ,"1,578 ","1,313 ",0 ,83 
+,Gyeonggi Siheung-si,Total,"16,003 ","1,865 ",326 ,35 ,"9,717 ","3,979 ",0 ,81 
+,Gyeonggi Siheung-si,Male,"8,345 ",999 ,167 ,19 ,"5,032 ","2,084 ",0 ,44 
+,Gyeonggi Siheung-si,Female,"7,658 ",866 ,159 ,16 ,"4,685 ","1,895 ",0 ,37 
+,Gyeonggi Gunpo-si,Total,"8,017 ","1,189 ",34 ,129 ,"3,964 ","2,424 ",74 ,203 
+,Gyeonggi Gunpo-si,Male,"4,112 ",620 ,11 ,62 ,"2,015 ","1,255 ",39 ,110 
+,Gyeonggi Gunpo-si,Female,"3,905 ",569 ,23 ,67 ,"1,949 ","1,169 ",35 ,93 
+,Gyeonggi Uiwang-si,Total,"4,678 ",749 ,370 ,429 ,"1,590 ","1,288 ",98 ,154 
+,Gyeonggi Uiwang-si,Male,"2,426 ",377 ,179 ,233 ,804 ,695 ,52 ,86 
+,Gyeonggi Uiwang-si,Female,"2,252 ",372 ,191 ,196 ,786 ,593 ,46 ,68 
+,Gyeonggi Hanam-si,Total,"8,405 ",835 ,0 ,44 ,"4,880 ","2,357 ",226 ,63 
+,Gyeonggi Hanam-si,Male,"4,308 ",447 ,0 ,21 ,"2,490 ","1,210 ",107 ,33 
+,Gyeonggi Hanam-si,Female,"4,097 ",388 ,0 ,23 ,"2,390 ","1,147 ",119 ,30 
+,Gyeonggi Yongin-si,Total,"33,829 ","2,086 ",368 ,"1,166 ","18,928 ","9,588 ",170 ,"1,523 "
+,Gyeonggi Yongin-si,Male,"17,477 ","1,052 ",217 ,625 ,"9,735 ","4,969 ",93 ,786 
+,Gyeonggi Yongin-si,Female,"16,352 ","1,034 ",151 ,541 ,"9,193 ","4,619 ",77 ,737 
+,Gyeonggi Icheon-si,Total,"8,041 ",680 ,0 ,119 ,"5,982 ",859 ,20 ,381 
+,Gyeonggi Icheon-si,Male,"4,155 ",365 ,0 ,56 ,"3,105 ",434 ,8 ,187 
+,Gyeonggi Icheon-si,Female,"3,886 ",315 ,0 ,63 ,"2,877 ",425 ,12 ,194 
+,Gyeonggi Anseong-si,Total,"6,783 ",696 ,195 ,175 ,"4,064 ","1,530 ",0 ,123 
+,Gyeonggi Anseong-si,Male,"3,531 ",348 ,103 ,99 ,"2,111 ",800 ,0 ,70 
+,Gyeonggi Anseong-si,Female,"3,252 ",348 ,92 ,76 ,"1,953 ",730 ,0 ,53 
+,Gyeonggi Gimpo-si,Total,"14,233 ","1,615 ",513 ,0 ,"6,475 ","5,476 ",19 ,135 
+,Gyeonggi Gimpo-si,Male,"7,256 ",812 ,270 ,0 ,"3,351 ","2,745 ",9 ,69 
+,Gyeonggi Gimpo-si,Female,"6,977 ",803 ,243 ,0 ,"3,124 ","2,731 ",10 ,66 
+,Gyeonggi Hwaseong-si,Total,"26,730 ","2,385 ",508 ,242 ,"13,634 ","9,264 ",0 ,697 
+,Gyeonggi Hwaseong-si,Male,"13,812 ","1,246 ",272 ,125 ,"7,061 ","4,742 ",0 ,366 
+,Gyeonggi Hwaseong-si,Female,"12,918 ","1,139 ",236 ,117 ,"6,573 ","4,522 ",0 ,331 
+,Gyeonggi Gwangju-si,Total,"14,912 ","1,067 ",54 ,438 ,"10,289 ","2,927 ",40 ,97 
+,Gyeonggi Gwangju-si,Male,"7,757 ",541 ,25 ,239 ,"5,373 ","1,513 ",19 ,47 
+,Gyeonggi Gwangju-si,Female,"7,155 ",526 ,29 ,199 ,"4,916 ","1,414 ",21 ,50 
+,Gyeonggi Yeoju-si,Total,"2,883 ",79 ,155 ,35 ,"2,170 ",398 ,0 ,46 
+,Gyeonggi Yeoju-si,Male,"1,478 ",40 ,82 ,22 ,"1,115 ",196 ,0 ,23 
+,Gyeonggi Yeoju-si,Female,"1,405 ",39 ,73 ,13 ,"1,055 ",202 ,0 ,23 
+,Gyeonggi Yangpyeong-gun,Total,"2,902 ",735 ,43 ,115 ,"1,763 ",176 ,0 ,70 
+,Gyeonggi Yangpyeong-gun,Male,"1,508 ",387 ,26 ,64 ,914 ,83 ,0 ,34 
+,Gyeonggi Yangpyeong-gun,Female,"1,394 ",348 ,17 ,51 ,849 ,93 ,0 ,36 
+Gangwon,Gangwon Total,Total,"39,337 ","5,543 ","6,020 ","1,757 ","16,756 ","6,950 ",75 ,"2,236 "
+,Gangwon Total,Male,"20,191 ","2,851 ","3,147 ",887 ,"8,626 ","3,477 ",43 ,"1,160 "
+,Gangwon Total,Female,"19,146 ","2,692 ","2,873 ",870 ,"8,130 ","3,473 ",32 ,"1,076 "
+,Gangwon Chuncheon-si,Total,"8,186 ",959 ,925 ,503 ,"3,240 ","1,973 ",39 ,547 
+,Gangwon Chuncheon-si,Male,"4,211 ",523 ,481 ,256 ,"1,668 ",960 ,24 ,299 
+,Gangwon Chuncheon-si,Female,"3,975 ",436 ,444 ,247 ,"1,572 ","1,013 ",15 ,248 
+,Gangwon Wonju-si,Total,"9,619 ","1,271 ",635 ,242 ,"4,297 ","2,611 ",16 ,547 
+,Gangwon Wonju-si,Male,"4,978 ",636 ,353 ,119 ,"2,260 ","1,328 ",7 ,275 
+,Gangwon Wonju-si,Female,"4,641 ",635 ,282 ,123 ,"2,037 ","1,283 ",9 ,272 
+,Gangwon Gangneung-si,Total,"5,209 ",216 ,978 ,69 ,"3,096 ",640 ,20 ,190 
+,Gangwon Gangneung-si,Male,"2,677 ",105 ,529 ,39 ,"1,579 ",310 ,12 ,103 
+,Gangwon Gangneung-si,Female,"2,532 ",111 ,449 ,30 ,"1,517 ",330 ,8 ,87 
+,Gangwon Donghae-si,Total,"2,545 ",151 ,540 ,186 ,"1,014 ",575 ,0 ,79 
+,Gangwon Donghae-si,Male,"1,302 ",76 ,287 ,96 ,525 ,282 ,0 ,36 
+,Gangwon Donghae-si,Female,"1,243 ",75 ,253 ,90 ,489 ,293 ,0 ,43 
+,Gangwon Taebaek-si,Total,"1,190 ",554 ,163 ,66 ,164 ,97 ,0 ,146 
+,Gangwon Taebaek-si,Male,619 ,307 ,81 ,29 ,86 ,54 ,0 ,62 
+,Gangwon Taebaek-si,Female,571 ,247 ,82 ,37 ,78 ,43 ,0 ,84 
+,Gangwon Sokcho-si,Total,"2,533 ",198 ,497 ,118 ,"1,322 ",345 ,0 ,53 
+,Gangwon Sokcho-si,Male,"1,251 ",108 ,242 ,53 ,645 ,177 ,0 ,26 
+,Gangwon Sokcho-si,Female,"1,282 ",90 ,255 ,65 ,677 ,168 ,0 ,27 
+,Gangwon Samcheok-si,Total,"1,305 ",335 ,129 ,0 ,528 ,289 ,0 ,24 
+,Gangwon Samcheok-si,Male,695 ,176 ,73 ,0 ,283 ,149 ,0 ,14 
+,Gangwon Samcheok-si,Female,610 ,159 ,56 ,0 ,245 ,140 ,0 ,10 
+,Gangwon Hongcheon-gun,Total,"1,495 ",98 ,235 ,97 ,861 ,93 ,0 ,111 
+,Gangwon Hongcheon-gun,Male,767 ,46 ,130 ,47 ,435 ,48 ,0 ,61 
+,Gangwon Hongcheon-gun,Female,728 ,52 ,105 ,50 ,426 ,45 ,0 ,50 
+,Gangwon Hoengseong-gun,Total,868 ,79 ,376 ,38 ,254 ,79 ,0 ,42 
+,Gangwon Hoengseong-gun,Male,434 ,42 ,187 ,18 ,122 ,44 ,0 ,21 
+,Gangwon Hoengseong-gun,Female,434 ,37 ,189 ,20 ,132 ,35 ,0 ,21 
+,Gangwon Yeongwol-gun,Total,530 ,98 ,211 ,84 ,97 ,40 ,0 ,0 
+,Gangwon Yeongwol-gun,Male,267 ,52 ,109 ,46 ,43 ,17 ,0 ,0 
+,Gangwon Yeongwol-gun,Female,263 ,46 ,102 ,38 ,54 ,23 ,0 ,0 
+,Gangwon Pyongchang-gun,Total,674 ,137 ,160 ,86 ,276 ,15 ,0 ,0 
+,Gangwon Pyongchang-gun,Male,323 ,60 ,74 ,43 ,139 ,7 ,0 ,0 
+,Gangwon Pyongchang-gun,Female,351 ,77 ,86 ,43 ,137 ,8 ,0 ,0 
+,Gangwon Jeongseon-gun,Total,572 ,255 ,307 ,0 ,0 ,10 ,0 ,0 
+,Gangwon Jeongseon-gun,Male,315 ,151 ,159 ,0 ,0 ,5 ,0 ,0 
+,Gangwon Jeongseon-gun,Female,257 ,104 ,148 ,0 ,0 ,5 ,0 ,0 
+,Gangwon Cheolwon-gun,Total,"1,329 ",142 ,130 ,49 ,862 ,28 ,0 ,118 
+,Gangwon Cheolwon-gun,Male,679 ,71 ,59 ,26 ,444 ,17 ,0 ,62 
+,Gangwon Cheolwon-gun,Female,650 ,71 ,71 ,23 ,418 ,11 ,0 ,56 
+,Gangwon Hwacheon-gun,Total,730 ,272 ,114 ,0 ,245 ,36 ,0 ,63 
+,Gangwon Hwacheon-gun,Male,388 ,136 ,60 ,0 ,133 ,20 ,0 ,39 
+,Gangwon Hwacheon-gun,Female,342 ,136 ,54 ,0 ,112 ,16 ,0 ,24 
+,Gangwon Yanggu-gun,Total,732 ,92 ,325 ,73 ,131 ,8 ,0 ,103 
+,Gangwon Yanggu-gun,Male,366 ,44 ,168 ,37 ,63 ,5 ,0 ,49 
+,Gangwon Yanggu-gun,Female,366 ,48 ,157 ,36 ,68 ,3 ,0 ,54 
+,Gangwon Inje-gun,Total,894 ,244 ,147 ,97 ,112 ,81 ,0 ,213 
+,Gangwon Inje-gun,Male,451 ,105 ,80 ,54 ,58 ,41 ,0 ,113 
+,Gangwon Inje-gun,Female,443 ,139 ,67 ,43 ,54 ,40 ,0 ,100 
+,Gangwon Goseong-gun,Total,518 ,338 ,0 ,0 ,166 ,14 ,0 ,0 
+,Gangwon Goseong-gun,Male,263 ,166 ,0 ,0 ,92 ,5 ,0 ,0 
+,Gangwon Goseong-gun,Female,255 ,172 ,0 ,0 ,74 ,9 ,0 ,0 
+,Gangwon Yangyang-gun,Total,408 ,104 ,148 ,49 ,91 ,16 ,0 ,0 
+,Gangwon Yangyang-gun,Male,205 ,47 ,75 ,24 ,51 ,8 ,0 ,0 
+,Gangwon Yangyang-gun,Female,203 ,57 ,73 ,25 ,40 ,8 ,0 ,0 
+North Chuncheong,North Chungcheong Total,Total,"48,774 ","3,942 ","7,528 ","2,034 ","25,650 ","7,602 ",149 ,"1,869 "
+,North Chungcheong Total,Male,"25,061 ","2,004 ","3,928 ","1,023 ","13,185 ","3,895 ",67 ,959 
+,North Chungcheong Total,Female,"23,713 ","1,938 ","3,600 ","1,011 ","12,465 ","3,707 ",82 ,910 
+,North Chungcheong Cheongju-si,Total,"29,255 ","1,268 ","3,115 ",727 ,"16,772 ","6,028 ",0 ,"1,345 "
+,North Chungcheong Cheongju-si,Male,"15,088 ",651 ,"1,664 ",372 ,"8,638 ","3,088 ",0 ,675 
+,North Chungcheong Cheongju-si,Female,"14,167 ",617 ,"1,451 ",355 ,"8,134 ","2,940 ",0 ,670 
+,North Chungcheong Chungju-si,Total,"5,563 ",373 ,"1,118 ",195 ,"3,288 ",544 ,20 ,25 
+,North Chungcheong Chungju-si,Male,"2,822 ",175 ,581 ,94 ,"1,664 ",286 ,7 ,15 
+,North Chungcheong Chungju-si,Female,"2,741 ",198 ,537 ,101 ,"1,624 ",258 ,13 ,10 
+,North Chungcheong Jecheon-si,Total,"3,069 ",473 ,559 ,326 ,"1,385 ",228 ,0 ,98 
+,North Chungcheong Jecheon-si,Male,"1,607 ",245 ,297 ,162 ,751 ,102 ,0 ,50 
+,North Chungcheong Jecheon-si,Female,"1,462 ",228 ,262 ,164 ,634 ,126 ,0 ,48 
+,North Chungcheong Boeun-gun,Total,489 ,90 ,122 ,0 ,227 ,30 ,0 ,20 
+,North Chungcheong Boeun-gun,Male,247 ,38 ,67 ,0 ,118 ,16 ,0 ,8 
+,North Chungcheong Boeun-gun,Female,242 ,52 ,55 ,0 ,109 ,14 ,0 ,12 
+,North Chungcheong Okcheon-gun,Total,896 ,208 ,138 ,48 ,394 ,66 ,17 ,25 
+,North Chungcheong Okcheon-gun,Male,468 ,99 ,73 ,27 ,213 ,31 ,9 ,16 
+,North Chungcheong Okcheon-gun,Female,428 ,109 ,65 ,21 ,181 ,35 ,8 ,9 
+,North Chungcheong Yeongdong-gun,Total,803 ,111 ,384 ,33 ,213 ,13 ,30 ,19 
+,North Chungcheong Yeongdong-gun,Male,425 ,54 ,200 ,29 ,115 ,4 ,14 ,9 
+,North Chungcheong Yeongdong-gun,Female,378 ,57 ,184 ,4 ,98 ,9 ,16 ,10 
+,North Chungcheong Jincheon-gun,Total,"3,077 ",526 ,517 ,294 ,"1,258 ",250 ,0 ,232 
+,North Chungcheong Jincheon-gun,Male,"1,560 ",278 ,270 ,134 ,620 ,127 ,0 ,131 
+,North Chungcheong Jincheon-gun,Female,"1,517 ",248 ,247 ,160 ,638 ,123 ,0 ,101 
+,North Chungcheong Goesan-gun,Total,534 ,109 ,220 ,133 ,0 ,28 ,0 ,44 
+,North Chungcheong Goesan-gun,Male,259 ,57 ,108 ,55 ,0 ,14 ,0 ,25 
+,North Chungcheong Goesan-gun,Female,275 ,52 ,112 ,78 ,0 ,14 ,0 ,19 
+,North Chungcheong Eumseong-gun,Total,"3,014 ",466 ,848 ,165 ,"1,070 ",359 ,82 ,24 
+,North Chungcheong Eumseong-gun,Male,"1,546 ",245 ,424 ,91 ,542 ,197 ,37 ,10 
+,North Chungcheong Eumseong-gun,Female,"1,468 ",221 ,424 ,74 ,528 ,162 ,45 ,14 
+,North Chungcheong Jeungpyong-gun,Total,"1,536 ",94 ,306 ,0 ,"1,043 ",56 ,0 ,37 
+,North Chungcheong Jeungpyong-gun,Male,766 ,45 ,147 ,0 ,524 ,30 ,0 ,20 
+,North Chungcheong Jeungpyong-gun,Female,770 ,49 ,159 ,0 ,519 ,26 ,0 ,17 
+,North Chungcheong Danyang-gun,Total,538 ,224 ,201 ,113 ,0 ,0 ,0 ,0 
+,North Chungcheong Danyang-gun,Male,273 ,117 ,97 ,59 ,0 ,0 ,0 ,0 
+,North Chungcheong Danyang-gun,Female,265 ,107 ,104 ,54 ,0 ,0 ,0 ,0 
+South Chungcheong,South Chungcheong Total,Total,"68,411 ","4,606 ","6,992 ","2,310 ","36,162 ","15,530 ",62 ,"2,749 "
+,South Chungcheong Total,Male,"35,220 ","2,412 ","3,622 ","1,190 ","18,450 ","8,089 ",33 ,"1,424 "
+,South Chungcheong Total,Female,"33,191 ","2,194 ","3,370 ","1,120 ","17,712 ","7,441 ",29 ,"1,325 "
+,South Chungcheong Cheonan-si,Total,"21,265 ","1,502 ",496 ,461 ,"11,436 ","6,714 ",62 ,594 
+,South Chungcheong Cheonan-si,Male,"10,895 ",761 ,271 ,243 ,"5,793 ","3,462 ",33 ,332 
+,South Chungcheong Cheonan-si,Female,"10,370 ",741 ,225 ,218 ,"5,643 ","3,252 ",29 ,262 
+,South Chungcheong Gongju-si,Total,"2,328 ",339 ,301 ,204 ,"1,084 ",400 ,0 ,0 
+,South Chungcheong Gongju-si,Male,"1,225 ",197 ,151 ,108 ,566 ,203 ,0 ,0 
+,South Chungcheong Gongju-si,Female,"1,103 ",142 ,150 ,96 ,518 ,197 ,0 ,0 
+,South Chungcheong Boryeong-si,Total,"2,329 ",212 ,336 ,139 ,"1,242 ",278 ,0 ,122 
+,South Chungcheong Boryeong-si,Male,"1,188 ",109 ,176 ,73 ,632 ,149 ,0 ,49 
+,South Chungcheong Boryeong-si,Female,"1,141 ",103 ,160 ,66 ,610 ,129 ,0 ,73 
+,South Chungcheong Asan-si,Total,"15,008 ",706 ,746 ,108 ,"8,390 ","4,430 ",0 ,628 
+,South Chungcheong Asan-si,Male,"7,801 ",368 ,403 ,65 ,"4,300 ","2,339 ",0 ,326 
+,South Chungcheong Asan-si,Female,"7,207 ",338 ,343 ,43 ,"4,090 ","2,091 ",0 ,302 
+,South Chungcheong Seosan-si,Total,"6,225 ",87 ,643 ,262 ,"3,911 ","1,019 ",0 ,303 
+,South Chungcheong Seosan-si,Male,"3,264 ",54 ,342 ,141 ,"2,046 ",534 ,0 ,147 
+,South Chungcheong Seosan-si,Female,"2,961 ",33 ,301 ,121 ,"1,865 ",485 ,0 ,156 
+,South Chungcheong Nonsan-si,Total,"3,585 ",257 ,608 ,344 ,"1,679 ",536 ,0 ,161 
+,South Chungcheong Nonsan-si,Male,"1,839 ",150 ,324 ,160 ,837 ,280 ,0 ,88 
+,South Chungcheong Nonsan-si,Female,"1,746 ",107 ,284 ,184 ,842 ,256 ,0 ,73 
+,South Chungcheong Gyerong-si,Total,"1,401 ",57 ,130 ,30 ,594 ,441 ,0 ,149 
+,South Chungcheong Gyerong-si,Male,698 ,28 ,55 ,12 ,292 ,236 ,0 ,75 
+,South Chungcheong Gyerong-si,Female,703 ,29 ,75 ,18 ,302 ,205 ,0 ,74 
+,South Chungcheong Geumsan-gun,Total,"1,082 ",240 ,185 ,84 ,456 ,34 ,0 ,83 
+,South Chungcheong Geumsan-gun,Male,552 ,113 ,98 ,37 ,247 ,13 ,0 ,44 
+,South Chungcheong Geumsan-gun,Female,530 ,127 ,87 ,47 ,209 ,21 ,0 ,39 
+,South Chungcheong Buyeo-gun,Total,"1,099 ",44 ,631 ,49 ,226 ,149 ,0 ,0 
+,South Chungcheong Buyeo-gun,Male,543 ,22 ,306 ,25 ,118 ,72 ,0 ,0 
+,South Chungcheong Buyeo-gun,Female,556 ,22 ,325 ,24 ,108 ,77 ,0 ,0 
+,South Chungcheong Seocheon-gun,Total,"1,041 ",177 ,481 ,140 ,213 ,30 ,0 ,0 
+,South Chungcheong Seocheon-gun,Male,516 ,84 ,238 ,69 ,109 ,16 ,0 ,0 
+,South Chungcheong Seocheon-gun,Female,525 ,93 ,243 ,71 ,104 ,14 ,0 ,0 
+,South Chungcheong Cheongyang-gun,Total,446 ,72 ,132 ,0 ,196 ,46 ,0 ,0 
+,South Chungcheong Cheongyang-gun,Male,227 ,31 ,70 ,0 ,99 ,27 ,0 ,0 
+,South Chungcheong Cheongyang-gun,Female,219 ,41 ,62 ,0 ,97 ,19 ,0 ,0 
+,South Chungcheong Hongseong-gun,Total,"2,574 ",278 ,641 ,25 ,"1,143 ",313 ,0 ,174 
+,South Chungcheong Hongseong-gun,Male,"1,333 ",155 ,318 ,11 ,598 ,157 ,0 ,94 
+,South Chungcheong Hongseong-gun,Female,"1,241 ",123 ,323 ,14 ,545 ,156 ,0 ,80 
+,South Chungcheong Yesan-gun,Total,"1,368 ",58 ,514 ,39 ,591 ,96 ,0 ,70 
+,South Chungcheong Yesan-gun,Male,740 ,33 ,273 ,20 ,323 ,51 ,0 ,40 
+,South Chungcheong Yesan-gun,Female,628 ,25 ,241 ,19 ,268 ,45 ,0 ,30 
+,South Chungcheong Taean-gun,Total,"1,323 ",54 ,437 ,64 ,577 ,37 ,0 ,154 
+,South Chungcheong Taean-gun,Male,642 ,28 ,220 ,35 ,267 ,17 ,0 ,75 
+,South Chungcheong Taean-gun,Female,681 ,26 ,217 ,29 ,310 ,20 ,0 ,79 
+,South Chungcheong Dangjin-si,Total,"7,337 ",523 ,711 ,361 ,"4,424 ","1,007 ",0 ,311 
+,South Chungcheong Dangjin-si,Male,"3,757 ",279 ,377 ,191 ,"2,223 ",533 ,0 ,154 
+,South Chungcheong Dangjin-si,Female,"3,580 ",244 ,334 ,170 ,"2,201 ",474 ,0 ,157 
+North Jeolla,North Jeolla Total,Total,"49,670 ","3,295 ","8,156 ","4,656 ","23,520 ","8,921 ",19 ,"1,103 "
+,North Jeolla Total,Male,"25,830 ","1,735 ","4,282 ","2,425 ","12,219 ","4,587 ",13 ,569 
+,North Jeolla Total,Female,"23,840 ","1,560 ","3,874 ","2,231 ","11,301 ","4,334 ",6 ,534 
+,North Jeolla Jeonju-si,Total,"20,134 ",486 ,"2,750 ",933 ,"10,629 ","4,613 ",19 ,704 
+,North Jeolla Jeonju-si,Male,"10,435 ",258 ,"1,430 ",491 ,"5,515 ","2,361 ",13 ,367 
+,North Jeolla Jeonju-si,Female,"9,699 ",228 ,"1,320 ",442 ,"5,114 ","2,252 ",6 ,337 
+,North Jeolla Gunsan-si,Total,"8,583 ",724 ,"1,268 ",800 ,"4,193 ","1,504 ",0 ,94 
+,North Jeolla Gunsan-si,Male,"4,465 ",399 ,677 ,412 ,"2,159 ",783 ,0 ,35 
+,North Jeolla Gunsan-si,Female,"4,118 ",325 ,591 ,388 ,"2,034 ",721 ,0 ,59 
+,North Jeolla Iksan-si,Total,"7,499 ",570 ,"1,036 ",781 ,"3,551 ","1,409 ",0 ,152 
+,North Jeolla Iksan-si,Male,"3,903 ",303 ,546 ,405 ,"1,815 ",747 ,0 ,87 
+,North Jeolla Iksan-si,Female,"3,596 ",267 ,490 ,376 ,"1,736 ",662 ,0 ,65 
+,North Jeolla Jeongeup-si,Total,"2,692 ",342 ,677 ,200 ,"1,129 ",314 ,0 ,30 
+,North Jeolla Jeongeup-si,Male,"1,405 ",186 ,350 ,103 ,597 ,155 ,0 ,14 
+,North Jeolla Jeongeup-si,Female,"1,287 ",156 ,327 ,97 ,532 ,159 ,0 ,16 
+,North Jeolla Namwon-si,Total,"2,268 ",19 ,449 ,301 ,"1,181 ",318 ,0 ,0 
+,North Jeolla Namwon-si,Male,"1,208 ",8 ,238 ,170 ,625 ,167 ,0 ,0 
+,North Jeolla Namwon-si,Female,"1,060 ",11 ,211 ,131 ,556 ,151 ,0 ,0 
+,North Jeolla Gimje-si,Total,"1,734 ",186 ,527 ,299 ,483 ,229 ,0 ,10 
+,North Jeolla Gimje-si,Male,911 ,87 ,269 ,165 ,265 ,117 ,0 ,8 
+,North Jeolla Gimje-si,Female,823 ,99 ,258 ,134 ,218 ,112 ,0 ,2 
+,North Jeolla Wanju-gun,Total,"2,868 ",256 ,688 ,303 ,"1,185 ",374 ,0 ,62 
+,North Jeolla Wanju-gun,Male,"1,443 ",128 ,355 ,141 ,615 ,171 ,0 ,33 
+,North Jeolla Wanju-gun,Female,"1,425 ",128 ,333 ,162 ,570 ,203 ,0 ,29 
+,North Jeolla Jinan-gun,Total,285 ,114 ,0 ,167 ,4 ,0 ,0 ,0 
+,North Jeolla Jinan-gun,Male,132 ,51 ,0 ,79 ,2 ,0 ,0 ,0 
+,North Jeolla Jinan-gun,Female,153 ,63 ,0 ,88 ,2 ,0 ,0 ,0 
+,North Jeolla Muju-gun,Total,429 ,166 ,28 ,119 ,116 ,0 ,0 ,0 
+,North Jeolla Muju-gun,Male,243 ,91 ,19 ,67 ,66 ,0 ,0 ,0 
+,North Jeolla Muju-gun,Female,186 ,75 ,9 ,52 ,50 ,0 ,0 ,0 
+,North Jeolla Jangsu-gun,Total,400 ,131 ,249 ,0 ,0 ,20 ,0 ,0 
+,North Jeolla Jangsu-gun,Male,209 ,66 ,129 ,0 ,0 ,14 ,0 ,0 
+,North Jeolla Jangsu-gun,Female,191 ,65 ,120 ,0 ,0 ,6 ,0 ,0 
+,North Jeolla Imsil-gun,Total,424 ,0 ,62 ,312 ,0 ,11 ,0 ,39 
+,North Jeolla Imsil-gun,Male,216 ,0 ,39 ,154 ,0 ,6 ,0 ,17 
+,North Jeolla Imsil-gun,Female,208 ,0 ,23 ,158 ,0 ,5 ,0 ,22 
+,North Jeolla Sunchang-gun,Total,448 ,126 ,75 ,128 ,99 ,20 ,0 ,0 
+,North Jeolla Sunchang-gun,Male,233 ,58 ,44 ,67 ,50 ,14 ,0 ,0 
+,North Jeolla Sunchang-gun,Female,215 ,68 ,31 ,61 ,49 ,6 ,0 ,0 
+,North Jeolla Gochang-gun,Total,"1,006 ",122 ,347 ,200 ,273 ,64 ,0 ,0 
+,North Jeolla Gochang-gun,Male,544 ,76 ,186 ,101 ,151 ,30 ,0 ,0 
+,North Jeolla Gochang-gun,Female,462 ,46 ,161 ,99 ,122 ,34 ,0 ,0 
+,North Jeolla Buan-gun,Total,900 ,53 ,0 ,113 ,677 ,45 ,0 ,12 
+,North Jeolla Buan-gun,Male,483 ,24 ,0 ,70 ,359 ,22 ,0 ,8 
+,North Jeolla Buan-gun,Female,417 ,29 ,0 ,43 ,318 ,23 ,0 ,4 
+South Jeolla,South Jeolla Total,Total,"51,201 ","5,509 ","11,071 ","2,897 ","22,719 ","7,019 ",64 ,"1,922 "
+,South Jeolla Total,Male,"26,457 ","2,770 ","5,723 ","1,533 ","11,707 ","3,649 ",35 ,"1,040 "
+,South Jeolla Total,Female,"24,744 ","2,739 ","5,348 ","1,364 ","11,012 ","3,370 ",29 ,882 
+,South Jeolla Mokpo-si,Total,"9,039 ",324 ,"1,312 ",116 ,"5,286 ","1,893 ",44 ,64 
+,South Jeolla Mokpo-si,Male,"4,697 ",159 ,688 ,55 ,"2,739 ",998 ,24 ,34 
+,South Jeolla Mokpo-si,Female,"4,342 ",165 ,624 ,61 ,"2,547 ",895 ,20 ,30 
+,South Jeolla Yeosu-si,Total,"7,954 ",808 ,"1,876 ",291 ,"3,934 ",653 ,0 ,392 
+,South Jeolla Yeosu-si,Male,"4,130 ",408 ,978 ,168 ,"2,017 ",334 ,0 ,225 
+,South Jeolla Yeosu-si,Female,"3,824 ",400 ,898 ,123 ,"1,917 ",319 ,0 ,167 
+,South Jeolla Suncheon-si,Total,"8,945 ",932 ,760 ,337 ,"4,617 ","2,050 ",0 ,249 
+,South Jeolla Suncheon-si,Male,"4,640 ",472 ,384 ,179 ,"2,412 ","1,057 ",0 ,136 
+,South Jeolla Suncheon-si,Female,"4,305 ",460 ,376 ,158 ,"2,205 ",993 ,0 ,113 
+,South Jeolla Naju-si,Total,"3,520 ",480 ,453 ,18 ,"1,495 ",527 ,0 ,547 
+,South Jeolla Naju-si,Male,"1,835 ",252 ,231 ,12 ,766 ,287 ,0 ,287 
+,South Jeolla Naju-si,Female,"1,685 ",228 ,222 ,6 ,729 ,240 ,0 ,260 
+,South Jeolla Gwangyang-si,Total,"6,190 ","1,132 ",673 ,110 ,"3,484 ",623 ,0 ,168 
+,South Jeolla Gwangyang-si,Male,"3,174 ",566 ,361 ,52 ,"1,769 ",338 ,0 ,88 
+,South Jeolla Gwangyang-si,Female,"3,016 ",566 ,312 ,58 ,"1,715 ",285 ,0 ,80 
+,South Jeolla Damyang-gun,Total,642 ,44 ,71 ,52 ,422 ,15 ,0 ,38 
+,South Jeolla Damyang-gun,Male,312 ,19 ,44 ,25 ,194 ,8 ,0 ,22 
+,South Jeolla Damyang-gun,Female,330 ,25 ,27 ,27 ,228 ,7 ,0 ,16 
+,South Jeolla Gokseong-gun,Total,472 ,98 ,304 ,70 ,0 ,0 ,0 ,0 
+,South Jeolla Gokseong-gun,Male,244 ,52 ,151 ,41 ,0 ,0 ,0 ,0 
+,South Jeolla Gokseong-gun,Female,228 ,46 ,153 ,29 ,0 ,0 ,0 ,0 
+,South Jeolla Gurye-gun,Total,439 ,121 ,0 ,143 ,131 ,44 ,0 ,0 
+,South Jeolla Gurye-gun,Male,205 ,53 ,0 ,70 ,64 ,18 ,0 ,0 
+,South Jeolla Gurye-gun,Female,234 ,68 ,0 ,73 ,67 ,26 ,0 ,0 
+,South Jeolla Goheung-gun,Total,970 ,43 ,350 ,240 ,317 ,20 ,0 ,0 
+,South Jeolla Goheung-gun,Male,487 ,21 ,162 ,131 ,162 ,11 ,0 ,0 
+,South Jeolla Goheung-gun,Female,483 ,22 ,188 ,109 ,155 ,9 ,0 ,0 
+,South Jeolla Boseong-gun,Total,610 ,269 ,187 ,35 ,110 ,9 ,0 ,0 
+,South Jeolla Boseong-gun,Male,315 ,141 ,99 ,19 ,53 ,3 ,0 ,0 
+,South Jeolla Boseong-gun,Female,295 ,128 ,88 ,16 ,57 ,6 ,0 ,0 
+,South Jeolla Hwasun-gun,Total,"1,504 ",35 ,427 ,40 ,654 ,348 ,0 ,0 
+,South Jeolla Hwasun-gun,Male,771 ,19 ,228 ,17 ,341 ,166 ,0 ,0 
+,South Jeolla Hwasun-gun,Female,733 ,16 ,199 ,23 ,313 ,182 ,0 ,0 
+,South Jeolla Jangheung-gun,Total,724 ,250 ,277 ,120 ,0 ,57 ,20 ,0 
+,South Jeolla Jangheung-gun,Male,377 ,123 ,138 ,71 ,0 ,34 ,11 ,0 
+,South Jeolla Jangheung-gun,Female,347 ,127 ,139 ,49 ,0 ,23 ,9 ,0 
+,South Jeolla Gangjin-gun,Total,711 ,0 ,316 ,234 ,161 ,0 ,0 ,0 
+,South Jeolla Gangjin-gun,Male,378 ,0 ,170 ,113 ,95 ,0 ,0 ,0 
+,South Jeolla Gangjin-gun,Female,333 ,0 ,146 ,121 ,66 ,0 ,0 ,0 
+,South Jeolla Haenam-gun,Total,"1,291 ",50 ,678 ,99 ,445 ,19 ,0 ,0 
+,South Jeolla Haenam-gun,Male,639 ,23 ,346 ,51 ,209 ,10 ,0 ,0 
+,South Jeolla Haenam-gun,Female,652 ,27 ,332 ,48 ,236 ,9 ,0 ,0 
+,South Jeolla Yeongam-gun,Total,"1,569 ",68 ,729 ,217 ,336 ,125 ,0 ,94 
+,South Jeolla Yeongam-gun,Male,821 ,34 ,403 ,107 ,171 ,50 ,0 ,56 
+,South Jeolla Yeongam-gun,Female,748 ,34 ,326 ,110 ,165 ,75 ,0 ,38 
+,South Jeolla Muan-gun,Total,"2,136 ",143 ,407 ,150 ,848 ,432 ,0 ,156 
+,South Jeolla Muan-gun,Male,"1,132 ",68 ,220 ,83 ,456 ,224 ,0 ,81 
+,South Jeolla Muan-gun,Female,"1,004 ",75 ,187 ,67 ,392 ,208 ,0 ,75 
+,South Jeolla Hampyeong-gun,Total,515 ,59 ,409 ,16 ,12 ,19 ,0 ,0 
+,South Jeolla Hampyeong-gun,Male,261 ,35 ,207 ,6 ,4 ,9 ,0 ,0 
+,South Jeolla Hampyeong-gun,Female,254 ,24 ,202 ,10 ,8 ,10 ,0 ,0 
+,South Jeolla Yeongwang-gun,Total,"1,135 ",39 ,606 ,196 ,152 ,51 ,0 ,91 
+,South Jeolla Yeongwang-gun,Male,586 ,19 ,310 ,104 ,77 ,26 ,0 ,50 
+,South Jeolla Yeongwang-gun,Female,549 ,20 ,296 ,92 ,75 ,25 ,0 ,41 
+,South Jeolla Jangseong-gun,Total,810 ,212 ,324 ,50 ,65 ,36 ,0 ,123 
+,South Jeolla Jangseong-gun,Male,386 ,97 ,145 ,28 ,39 ,16 ,0 ,61 
+,South Jeolla Jangseong-gun,Female,424 ,115 ,179 ,22 ,26 ,20 ,0 ,62 
+,South Jeolla Wando-gun,Total,"1,064 ",193 ,375 ,227 ,210 ,59 ,0 ,0 
+,South Jeolla Wando-gun,Male,567 ,108 ,181 ,128 ,114 ,36 ,0 ,0 
+,South Jeolla Wando-gun,Female,497 ,85 ,194 ,99 ,96 ,23 ,0 ,0 
+,South Jeolla Jindo-gun,Total,558 ,84 ,259 ,136 ,40 ,39 ,0 ,0 
+,South Jeolla Jindo-gun,Male,286 ,37 ,127 ,73 ,25 ,24 ,0 ,0 
+,South Jeolla Jindo-gun,Female,272 ,47 ,132 ,63 ,15 ,15 ,0 ,0 
+,South Jeolla Sinan-gun,Total,403 ,125 ,278 ,0 ,0 ,0 ,0 ,0 
+,South Jeolla Sinan-gun,Male,214 ,64 ,150 ,0 ,0 ,0 ,0 ,0 
+,South Jeolla Sinan-gun,Female,189 ,61 ,128 ,0 ,0 ,0 ,0 ,0 
+North Gyeongsang,North Gyeongsang Total,Total,"67,914 ","5,810 ","5,336 ","1,855 ","39,323 ","12,317 ",74 ,"3,199 "
+,North Gyeongsang Total,Male,"35,271 ","2,969 ","2,869 ",993 ,"20,457 ","6,325 ",32 ,"1,626 "
+,North Gyeongsang Total,Female,"32,643 ","2,841 ","2,467 ",862 ,"18,866 ","5,992 ",42 ,"1,573 "
+,North Gyeongsang Pohang-si,Total,"14,324 ",736 ,772 ,85 ,"8,610 ","3,540 ",0 ,581 
+,North Gyeongsang Pohang-si,Male,"7,596 ",396 ,436 ,45 ,"4,544 ","1,875 ",0 ,300 
+,North Gyeongsang Pohang-si,Female,"6,728 ",340 ,336 ,40 ,"4,066 ","1,665 ",0 ,281 
+,North Gyeongsang Gyeongju-si,Total,"6,145 ",310 ,497 ,108 ,"3,790 ","1,051 ",0 ,389 
+,North Gyeongsang Gyeongju-si,Male,"3,148 ",149 ,259 ,54 ,"1,926 ",544 ,0 ,216 
+,North Gyeongsang Gyeongju-si,Female,"2,997 ",161 ,238 ,54 ,"1,864 ",507 ,0 ,173 
+,North Gyeongsang Gimcheon-si,Total,"3,475 ",354 ,436 ,14 ,"1,546 ",703 ,0 ,422 
+,North Gyeongsang Gimcheon-si,Male,"1,781 ",188 ,257 ,5 ,774 ,346 ,0 ,211 
+,North Gyeongsang Gimcheon-si,Female,"1,694 ",166 ,179 ,9 ,772 ,357 ,0 ,211 
+,North Gyeongsang Andong-si,Total,"3,828 ",424 ,686 ,91 ,"1,882 ",404 ,0 ,341 
+,North Gyeongsang Andong-si,Male,"1,996 ",216 ,367 ,44 ,978 ,218 ,0 ,173 
+,North Gyeongsang Andong-si,Female,"1,832 ",208 ,319 ,47 ,904 ,186 ,0 ,168 
+,North Gyeongsang Gumi-si,Total,"14,572 ",526 ,612 ,282 ,"8,671 ","3,735 ",74 ,672 
+,North Gyeongsang Gumi-si,Male,"7,485 ",265 ,333 ,146 ,"4,515 ","1,856 ",32 ,338 
+,North Gyeongsang Gumi-si,Female,"7,087 ",261 ,279 ,136 ,"4,156 ","1,879 ",42 ,334 
+,North Gyeongsang Yeongju-si,Total,"2,395 ",307 ,217 ,331 ,"1,379 ",144 ,0 ,17 
+,North Gyeongsang Yeongju-si,Male,"1,240 ",144 ,119 ,192 ,703 ,76 ,0 ,6 
+,North Gyeongsang Yeongju-si,Female,"1,155 ",163 ,98 ,139 ,676 ,68 ,0 ,11 
+,North Gyeongsang Yeongcheon-si,Total,"1,980 ",201 ,307 ,0 ,"1,165 ",204 ,0 ,103 
+,North Gyeongsang Yeongcheon-si,Male,"1,024 ",95 ,155 ,0 ,611 ,105 ,0 ,58 
+,North Gyeongsang Yeongcheon-si,Female,956 ,106 ,152 ,0 ,554 ,99 ,0 ,45 
+,North Gyeongsang Sangju-si,Total,"1,366 ",129 ,57 ,40 ,964 ,157 ,0 ,19 
+,North Gyeongsang Sangju-si,Male,720 ,59 ,25 ,24 ,531 ,72 ,0 ,9 
+,North Gyeongsang Sangju-si,Female,646 ,70 ,32 ,16 ,433 ,85 ,0 ,10 
+,North Gyeongsang Mungyeong-si,Total,"1,311 ",181 ,151 ,65 ,726 ,175 ,0 ,13 
+,North Gyeongsang Mungyeong-si,Male,690 ,98 ,76 ,28 ,390 ,92 ,0 ,6 
+,North Gyeongsang Mungyeong-si,Female,621 ,83 ,75 ,37 ,336 ,83 ,0 ,7 
+,North Gyeongsang Gyeongsan-si,Total,"7,347 ",321 ,629 ,255 ,"4,862 ","1,004 ",0 ,276 
+,North Gyeongsang Gyeongsan-si,Male,"3,777 ",172 ,326 ,132 ,"2,513 ",511 ,0 ,123 
+,North Gyeongsang Gyeongsan-si,Female,"3,570 ",149 ,303 ,123 ,"2,349 ",493 ,0 ,153 
+,North Gyeongsang Gunwi-gun,Total,209 ,15 ,101 ,0 ,93 ,0 ,0 ,0 
+,North Gyeongsang Gunwi-gun,Male,115 ,11 ,51 ,0 ,53 ,0 ,0 ,0 
+,North Gyeongsang Gunwi-gun,Female,94 ,4 ,50 ,0 ,40 ,0 ,0 ,0 
+,North Gyeongsang Uiseong-gun,Total,641 ,95 ,357 ,64 ,107 ,18 ,0 ,0 
+,North Gyeongsang Uiseong-gun,Male,334 ,45 ,181 ,37 ,59 ,12 ,0 ,0 
+,North Gyeongsang Uiseong-gun,Female,307 ,50 ,176 ,27 ,48 ,6 ,0 ,0 
+,North Gyeongsang Cheongsong-gun,Total,316 ,117 ,28 ,41 ,74 ,19 ,0 ,37 
+,North Gyeongsang Cheongsong-gun,Male,166 ,62 ,16 ,17 ,38 ,15 ,0 ,18 
+,North Gyeongsang Cheongsong-gun,Female,150 ,55 ,12 ,24 ,36 ,4 ,0 ,19 
+,North Gyeongsang Yeongyang-gun,Total,186 ,123 ,0 ,42 ,21 ,0 ,0 ,0 
+,North Gyeongsang Yeongyang-gun,Male,95 ,59 ,0 ,26 ,10 ,0 ,0 ,0 
+,North Gyeongsang Yeongyang-gun,Female,91 ,64 ,0 ,16 ,11 ,0 ,0 ,0 
+,North Gyeongsang Yeongdeok-gun,Total,688 ,247 ,0 ,0 ,441 ,0 ,0 ,0 
+,North Gyeongsang Yeongdeok-gun,Male,343 ,128 ,0 ,0 ,215 ,0 ,0 ,0 
+,North Gyeongsang Yeongdeok-gun,Female,345 ,119 ,0 ,0 ,226 ,0 ,0 ,0 
+,North Gyeongsang Cheongdo-gun,Total,367 ,171 ,45 ,0 ,131 ,20 ,0 ,0 
+,North Gyeongsang Cheongdo-gun,Male,186 ,89 ,18 ,0 ,69 ,10 ,0 ,0 
+,North Gyeongsang Cheongdo-gun,Female,181 ,82 ,27 ,0 ,62 ,10 ,0 ,0 
+,North Gyeongsang Goryeong-gun,Total,672 ,202 ,49 ,0 ,421 ,0 ,0 ,0 
+,North Gyeongsang Goryeong-gun,Male,345 ,95 ,28 ,0 ,222 ,0 ,0 ,0 
+,North Gyeongsang Goryeong-gun,Female,327 ,107 ,21 ,0 ,199 ,0 ,0 ,0 
+,North Gyeongsang Seongju-gun,Total,553 ,189 ,0 ,0 ,269 ,95 ,0 ,0 
+,North Gyeongsang Seongju-gun,Male,281 ,93 ,0 ,0 ,137 ,51 ,0 ,0 
+,North Gyeongsang Seongju-gun,Female,272 ,96 ,0 ,0 ,132 ,44 ,0 ,0 
+,North Gyeongsang Chilgok-gun,Total,"4,655 ",317 ,188 ,225 ,"3,094 ",733 ,0 ,98 
+,North Gyeongsang Chilgok-gun,Male,"2,441 ",155 ,106 ,125 ,"1,621 ",377 ,0 ,57 
+,North Gyeongsang Chilgok-gun,Female,"2,214 ",162 ,82 ,100 ,"1,473 ",356 ,0 ,41 
+,North Gyeongsang Yecheon-gun,Total,"1,198 ",159 ,159 ,115 ,497 ,259 ,0 ,9 
+,North Gyeongsang Yecheon-gun,Male,621 ,76 ,92 ,62 ,243 ,142 ,0 ,6 
+,North Gyeongsang Yecheon-gun,Female,577 ,83 ,67 ,53 ,254 ,117 ,0 ,3 
+,North Gyeongsang Bonghwa-gun,Total,376 ,191 ,45 ,47 ,64 ,29 ,0 ,0 
+,North Gyeongsang Bonghwa-gun,Male,217 ,113 ,24 ,28 ,40 ,12 ,0 ,0 
+,North Gyeongsang Bonghwa-gun,Female,159 ,78 ,21 ,19 ,24 ,17 ,0 ,0 
+,North Gyeongsang Uljin-gun,Total,"1,247 ",432 ,0 ,50 ,516 ,27 ,0 ,222 
+,North Gyeongsang Uljin-gun,Male,632 ,223 ,0 ,28 ,265 ,11 ,0 ,105 
+,North Gyeongsang Uljin-gun,Female,615 ,209 ,0 ,22 ,251 ,16 ,0 ,117 
+,North Gyeongsang Ulleung-gun,Total,63 ,63 ,0 ,0 ,0 ,0 ,0 ,0 
+,North Gyeongsang Ulleung-gun,Male,38 ,38 ,0 ,0 ,0 ,0 ,0 ,0 
+,North Gyeongsang Ulleung-gun,Female,25 ,25 ,0 ,0 ,0 ,0 ,0 ,0 
+South Gyeongsang,South Gyeongsang Total,Total,"99,755 ","9,265 ","6,559 ","2,650 ","53,551 ","24,280 ",156 ,"3,294 "
+,South Gyeongsang Total,Male,"51,632 ","4,799 ","3,407 ","1,384 ","27,819 ","12,441 ",86 ,"1,696 "
+,South Gyeongsang Total,Female,"48,123 ","4,466 ","3,152 ","1,266 ","25,732 ","11,839 ",70 ,"1,598 "
+,South Gyeongsang Changwon-si,Total,"29,967 ","2,797 ","1,836 ",763 ,"14,908 ","8,178 ",0 ,"1,485 "
+,South Gyeongsang Changwon-si,Male,"15,582 ","1,436 ",975 ,416 ,"7,822 ","4,153 ",0 ,780 
+,South Gyeongsang Changwon-si,Female,"14,385 ","1,361 ",861 ,347 ,"7,086 ","4,025 ",0 ,705 
+,South Gyeongsang Jinju-si,Total,"11,379 ",954 ,642 ,211 ,"7,081 ","1,978 ",0 ,513 
+,South Gyeongsang Jinju-si,Male,"5,946 ",524 ,318 ,112 ,"3,727 ","1,004 ",0 ,261 
+,South Gyeongsang Jinju-si,Female,"5,433 ",430 ,324 ,99 ,"3,354 ",974 ,0 ,252 
+,South Gyeongsang Tongyeong-si,Total,"4,190 ",606 ,228 ,69 ,"2,569 ",596 ,0 ,122 
+,South Gyeongsang Tongyeong-si,Male,"2,105 ",305 ,103 ,32 ,"1,303 ",305 ,0 ,57 
+,South Gyeongsang Tongyeong-si,Female,"2,085 ",301 ,125 ,37 ,"1,266 ",291 ,0 ,65 
+,South Gyeongsang Sacheon-si,Total,"4,257 ",441 ,230 ,238 ,"2,565 ",562 ,0 ,221 
+,South Gyeongsang Sacheon-si,Male,"2,202 ",242 ,121 ,126 ,"1,312 ",281 ,0 ,120 
+,South Gyeongsang Sacheon-si,Female,"2,055 ",199 ,109 ,112 ,"1,253 ",281 ,0 ,101 
+,South Gyeongsang Gimhae-si,Total,"16,940 ","1,383 ",511 ,173 ,"8,983 ","5,807 ",0 ,83 
+,South Gyeongsang Gimhae-si,Male,"8,763 ",705 ,290 ,90 ,"4,636 ","2,998 ",0 ,44 
+,South Gyeongsang Gimhae-si,Female,"8,177 ",678 ,221 ,83 ,"4,347 ","2,809 ",0 ,39 
+,South Gyeongsang Miryang-si,Total,"2,163 ",91 ,590 ,31 ,"1,126 ",294 ,0 ,31 
+,South Gyeongsang Miryang-si,Male,"1,083 ",40 ,303 ,16 ,570 ,140 ,0 ,14 
+,South Gyeongsang Miryang-si,Female,"1,080 ",51 ,287 ,15 ,556 ,154 ,0 ,17 
+,South Gyeongsang Geoje-si,Total,"9,983 ",698 ,299 ,0 ,"6,143 ","2,290 ",17 ,536 
+,South Gyeongsang Geoje-si,Male,"5,125 ",357 ,151 ,0 ,"3,149 ","1,182 ",12 ,274 
+,South Gyeongsang Geoje-si,Female,"4,858 ",341 ,148 ,0 ,"2,994 ","1,108 ",5 ,262 
+,South Gyeongsang Yangsan-si,Total,"12,072 ",439 ,"1,039 ",92 ,"6,316 ","3,886 ",139 ,161 
+,South Gyeongsang Yangsan-si,Male,"6,287 ",216 ,529 ,42 ,"3,320 ","2,030 ",74 ,76 
+,South Gyeongsang Yangsan-si,Female,"5,785 ",223 ,510 ,50 ,"2,996 ","1,856 ",65 ,85 
+,South Gyeongsang Uiryeong-gun,Total,336 ,91 ,0 ,105 ,105 ,35 ,0 ,0 
+,South Gyeongsang Uiryeong-gun,Male,182 ,55 ,0 ,52 ,61 ,14 ,0 ,0 
+,South Gyeongsang Uiryeong-gun,Female,154 ,36 ,0 ,53 ,44 ,21 ,0 ,0 
+,South Gyeongsang Haman-gun,Total,"1,642 ",147 ,243 ,47 ,766 ,353 ,0 ,86 
+,South Gyeongsang Haman-gun,Male,842 ,78 ,149 ,26 ,381 ,168 ,0 ,40 
+,South Gyeongsang Haman-gun,Female,800 ,69 ,94 ,21 ,385 ,185 ,0 ,46 
+,South Gyeongsang Changnyeong-gun,Total,"1,092 ",231 ,216 ,76 ,523 ,19 ,0 ,27 
+,South Gyeongsang Changnyeong-gun,Male,577 ,114 ,111 ,47 ,279 ,11 ,0 ,15 
+,South Gyeongsang Changnyeong-gun,Female,515 ,117 ,105 ,29 ,244 ,8 ,0 ,12 
+,South Gyeongsang Goseong-gun,Total,"1,224 ",199 ,175 ,162 ,604 ,84 ,0 ,0 
+,South Gyeongsang Goseong-gun,Male,605 ,97 ,78 ,75 ,313 ,42 ,0 ,0 
+,South Gyeongsang Goseong-gun,Female,619 ,102 ,97 ,87 ,291 ,42 ,0 ,0 
+,South Gyeongsang Namhae-gun,Total,644 ,120 ,0 ,292 ,213 ,19 ,0 ,0 
+,South Gyeongsang Namhae-gun,Male,328 ,67 ,0 ,141 ,108 ,12 ,0 ,0 
+,South Gyeongsang Namhae-gun,Female,316 ,53 ,0 ,151 ,105 ,7 ,0 ,0 
+,South Gyeongsang Hadong-gun,Total,758 ,100 ,188 ,135 ,306 ,0 ,0 ,29 
+,South Gyeongsang Hadong-gun,Male,394 ,54 ,90 ,76 ,159 ,0 ,0 ,15 
+,South Gyeongsang Hadong-gun,Female,364 ,46 ,98 ,59 ,147 ,0 ,0 ,14 
+,South Gyeongsang Sancheong-gun,Total,509 ,358 ,0 ,66 ,85 ,0 ,0 ,0 
+,South Gyeongsang Sancheong-gun,Male,269 ,203 ,0 ,26 ,40 ,0 ,0 ,0 
+,South Gyeongsang Sancheong-gun,Female,240 ,155 ,0 ,40 ,45 ,0 ,0 ,0 
+,South Gyeongsang Hamgyang-gun,Total,621 ,187 ,324 ,22 ,51 ,37 ,0 ,0 
+,South Gyeongsang Hamgyang-gun,Male,326 ,88 ,171 ,15 ,26 ,26 ,0 ,0 
+,South Gyeongsang Hamgyang-gun,Female,295 ,99 ,153 ,7 ,25 ,11 ,0 ,0 
+,South Gyeongsang Geochang-gun,Total,"1,467 ",244 ,0 ,43 ,"1,098 ",82 ,0 ,0 
+,South Gyeongsang Geochang-gun,Male,741 ,124 ,0 ,19 ,553 ,45 ,0 ,0 
+,South Gyeongsang Geochang-gun,Female,726 ,120 ,0 ,24 ,545 ,37 ,0 ,0 
+,South Gyeongsang Hapcheon-gun,Total,511 ,179 ,38 ,125 ,109 ,60 ,0 ,0 
+,South Gyeongsang Hapcheon-gun,Male,275 ,94 ,18 ,73 ,60 ,30 ,0 ,0 
+,South Gyeongsang Hapcheon-gun,Female,236 ,85 ,20 ,52 ,49 ,30 ,0 ,0 
+Jeju,Jeju Total,Total,"26,458 ","1,991 ","6,419 ","2,777 ","12,131 ","2,229 ",0 ,911 
+,Jeju Total,Male,"13,617 ","1,023 ","3,347 ","1,434 ","6,195 ","1,173 ",0 ,445 
+,Jeju Total,Female,"12,841 ",968 ,"3,072 ","1,343 ","5,936 ","1,056 ",0 ,466 
+,Jeju Jeju-si,Total,"20,066 ","1,063 ","4,134 ","1,793 ","10,293 ","1,957 ",0 ,826 
+,Jeju Jeju-si,Male,"10,372 ",554 ,"2,161 ",943 ,"5,278 ","1,038 ",0 ,398 
+,Jeju Jeju-si,Female,"9,694 ",509 ,"1,973 ",850 ,"5,015 ",919 ,0 ,428 
+,Jeju Seogwipo-si,Total,"6,392 ",928 ,"2,285 ",984 ,"1,838 ",272 ,0 ,85 
+,Jeju Seogwipo-si,Male,"3,245 ",469 ,"1,186 ",491 ,917 ,135 ,0 ,47 
+,Jeju Seogwipo-si,Female,"3,147 ",459 ,"1,099 ",493 ,921 ,137 ,0 ,38 
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
