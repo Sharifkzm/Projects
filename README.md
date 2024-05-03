@@ -16,7 +16,7 @@ Thank you for coming to my GitHub! In this repository you'll find a sample of my
 
 **Python**
 - Course: SIPA class, Text as Data (U6514) and Building AI Tools with Large Language Models (U6547)
-- Date: May 2023
+- Date: May 2024
 - Project: Large-language model orchestration with the World Bank API
 - Motivation: Creating a workflow for receiving policy recommendations from a simple user prompt. 
 - Key tasks: Analysing a user's prompt to derive parameters of interest (sectors, countries, and years) to query the World Bank API. Utilizing a retrieval augmented generation (RAG) approach, GPT 4.0 summarises relevant documents from the World Bank database to give policy recommendations for the parameters of interest. The summaries refer to specific sources, summarising each document, and give overall summaries of all documents. 
