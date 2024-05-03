@@ -11,13 +11,16 @@ Here are the steps the orchestration takes:
 *   Step 5: Pre-process the text
 *   Step 6: Summarise papers and retrieve policy results
 *   Step 7: Hallucination evaluation 
+
+Initial code written with Geetika Malhotra (MPA '24), Jinyu Qi (MPA '24), Shumpei Watanbe (MPA '24).
+Later revised and reworked by Sharif Kazemi (MIA '24). 
 """
 
-# TODO: Insert OpenAI API key into the models below
+# TODO: Insert your OpenAI API key into the models below
+openai_api_userkey = 'INSERT_KEY_HERE'
 
-# TODO: Build a user interface
+# TODO: Code author is exploring building a user interface
 
-# Initial code written with Geetika Malhotra (MPA '24), Jinyu Qi (MPA '24), Shumpei Watanbe (MPA '24), later revised and reworked by Sharif Kazemi (MPA '24). 
 
 ## Step 0: Load packages
 # Orchestration
