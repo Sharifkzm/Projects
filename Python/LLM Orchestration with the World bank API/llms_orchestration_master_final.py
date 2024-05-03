@@ -75,18 +75,19 @@ import textwrap
 
 
 ## Step 1: User's prompts and parameters
-# This step can be done through the R portal as an input. To input through this script, amend the code below
+# This step can be done through the R portal as an input. To input through this script, run the code below. 
+# Example inputs are listed as comments. 
 
-user_prompt = "I want to know more about the education policies of India between 2010 and 2020"
-# user_prompt = input("Please request your policy summary, specifying country, year, and sector of interest: ")
+# user_prompt = "I want to know more about the education policies of India between 2010 and 2020"
+user_prompt = input("Please request your policy summary, specifying country, year, and sector of interest: ")
 print("User prompt is: ", user_prompt)
 
-documents_to_index = 5
-# documents_to_index = input("Please request number of documents to index (5 is good for a short query): ")
+# documents_to_index = 5
+documents_to_index = input("Please request number of documents to index (5 is good for a short query): ")
 print("Number of documents to index: ", documents_to_index)
 
-page_limit_per_document = 30
-# page_limit_per_document = input("Please request the page limit for indexed documents that will be sent to the OpenAI API (50 is good for a short query): ")
+# page_limit_per_document = 30
+page_limit_per_document = input("Please request the page limit for indexed documents that will be sent to the OpenAI API (30 is good for a short query): ")
 print("Number of pages per indexed document that will be sent to the OpenAI API: ", page_limit_per_document)
 
 
