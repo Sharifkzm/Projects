@@ -3,7 +3,7 @@ Thank you for coming to my GitHub! In this repository you'll find a sample of my
 **Python**
 - Course: SIPA class, Text as Data (U6514) and Building AI Tools with Large Language Models (U6547)
 - Date: May 2024
-- Project: Large-language model orchestration with the World Bank API
+- Project: Large-language model orchestration with the World Bank API. 
 - Motivation: Creating a workflow for receiving policy recommendations from a simple user prompt. 
 - Key tasks: Analysing a user's prompt to derive parameters of interest (sectors, countries, and years) to query the World Bank API. Utilizing a retrieval augmented generation (RAG) approach, GPT 4.0 summarises relevant documents from the World Bank database to give policy recommendations for the parameters of interest. The summaries refer to specific sources, summarising each document, and give overall summaries of all documents. 
 
@@ -17,7 +17,7 @@ Thank you for coming to my GitHub! In this repository you'll find a sample of my
 **R**
 - Course: SIPA class, Data Analysis for Policy Research Using R (U6614)
 - Date: December 2023
-- Project: 'Tackling the world's lowest fertility rate: Effect of childcare subsidies on birth-rate in South Korea.' Group project with Shawn Lee and Manisha Swain. 
+- Project: 'Tackling the world's lowest fertility rate: Effect of childcare subsidies on birth-rate in South Korea.' Group project with Shawn Lee (MIA '24) and Manisha Swain (MPA '24). 
 - Key tasks: Regressions (linear OLS, two-way fixed effects, panelr), knitting into PDFs and Presentations (Markdown), data cleaning, transformations, and visualisations (tidyverse, ggplot). 
 - Research outcomes: Childcare subsidies (supply-side) did not result in a significant change to the already-declining birth rates in South Korea. This is evidenced by the government's switch to a policy of direct cash to parents (demand-side) in 2023. 
 
