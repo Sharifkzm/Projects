@@ -75,19 +75,18 @@ import textwrap
 
 
 ## Step 1: User's prompts and parameters
-# This step can be done through the R portal as an input. To input through this script, run the code below. 
-# Example inputs are listed as comments. 
+# This step can be done through the R portal as an input. To input through this script, amend the code below
 
-# user_prompt = "I want to know more about the education policies of India between 2010 and 2020"
-user_prompt = input("Please request your policy summary, specifying country, year, and sector of interest: ")
+user_prompt = "I want to know more about the health policies of Mexico between 2010 and 2020"
+# user_prompt = input("Please request your policy summary, specifying country, year, and sector of interest: ")
 print("User prompt is: ", user_prompt)
 
-# documents_to_index = 5
-documents_to_index = input("Please request number of documents to index (5 is good for a short query): ")
+documents_to_index = 3
+# documents_to_index = input("Please request number of documents to index (5 is good for a short query): ")
 print("Number of documents to index: ", documents_to_index)
 
-# page_limit_per_document = 30
-page_limit_per_document = input("Please request the page limit for indexed documents that will be sent to the OpenAI API (30 is good for a short query): ")
+page_limit_per_document = 30
+# page_limit_per_document = input("Please request the page limit for indexed documents that will be sent to the OpenAI API (50 is good for a short query): ")
 print("Number of pages per indexed document that will be sent to the OpenAI API: ", page_limit_per_document)
 
 
@@ -281,7 +280,7 @@ def export_document(text, document_number):
         file.write(text)
     print(f"Document {document_number} exported successfully as {file_name}")
 
-full_text_list = [] 
+
 full_text2 = []
 total_tokens = 0 # for length of saved documents to meet token limit of API
 document_count = 0
@@ -293,7 +292,8 @@ for i, url_link in enumerate(url_link_row.values):
     print(f"'URL' number {i+1} is -  {url_link}")
     if pd.isna(url_link):
       continue
-
+    
+    full_text_list = [] 
     response = requests.get(url_link) #To fetch the pdf from url dynamically
 
     with BytesIO(response.content) as data:
@@ -385,7 +385,7 @@ for document_number, document_text in enumerate(documents, start=1):
     if document_number > document_count:
         break # Stopping a hallucinated summary of a phantom document at the end      
     prompt = ChatPromptTemplate.from_template(f"Please summarise the suggested policies regarding {most_likely_sector} about {country} in {document_text}. Please reference the sources in {document_text} as much as possible. Use clear and accessible language which can be easily understood by a non-native English speaker or a high-school student")
-    model = ChatOpenAI(model="gpt-4-turbo", openai_api_key='INSERT_API_KEY_HERE')
+    model = ChatOpenAI(model="gpt-4-turbo", openai_api_key=openai_api_userkey)
     output_parser = StrOutputParser()
 
     chain = prompt | model | output_parser
@@ -408,9 +408,9 @@ for document_number, document_text in enumerate(documents, start=1):
 ## Step 6B: Using OpenAI's API, summarise all papers, retrieve policy results, and export the text
 # Summarise entire documents
 prompt = ChatPromptTemplate.from_template(
-  "Please summarise the suggested policies regarding {most_likely_sector} about {country}. Please reference the sources in {full_text} as much as possible and use the following format: 'Document number, title of paper, key policies insights. Please provide a summary of all documents at the end of your response. Use clear and accessible language which can be easily understood by a non-native English speaker or a high-school student.")
+  "Please summarise the suggested policies regarding {most_likely_sector} about {country}. Please reference the sources in {full_text} as much as possible and use the following format: 'Document number, title of paper, key policies insights. Make sure to give a separate summary of each document's main policy recommendation - you can see the delimiter between each document with """""""" and look for at least Document 1 and Document 2. Also, please provide a summary of all documents at the end of your response. Use clear and accessible language which can be easily understood by a non-native English speaker or a high-school student.")
 model = ChatOpenAI(model="gpt-4-turbo",
-                  openai_api_key='INSERT_API_KEY_HERE')
+                  openai_api_key=openai_api_userkey)
 output_parser = StrOutputParser()
 
 chain = prompt | model | output_parser
