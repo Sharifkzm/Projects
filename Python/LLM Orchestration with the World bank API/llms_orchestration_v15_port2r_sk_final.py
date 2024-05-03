@@ -17,6 +17,8 @@ Here are the steps the orchestration takes:
 
 # TODO: Build a user interface
 
+# Initial code written with Geetika Malhotra (MPA '24), Jinyu Qi (MPA '24), Shumpei Watanbe (MPA '24), later revised and reworked by Sharif Kazemi (MPA '24). 
+
 ## Step 0: Load packages
 # Orchestration
 
