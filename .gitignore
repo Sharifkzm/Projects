@@ -1,0 +1,4 @@
+# Removing the memory of HTML files 
+# which is affecting the distribution of coding 
+# languages on GitHub.com
+*.html
